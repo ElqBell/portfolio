@@ -1,4 +1,21 @@
 ---------------------general---------------------
+
+make styles for 4k
+
+use background big watermark
+
+landing page good header
+
+on hover illustration, change color a bit
+
+vertical github or something else on the side
+
+when hover over contact input, make border-bottom highlight
+
+navlink highlight current page
+
+on email make html mailto:
+
 ---------------------general---------------------
 
 ---------------------aws-------------------------
