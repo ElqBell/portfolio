@@ -4,11 +4,9 @@ make styles for 4k
 
 use background big watermark
 
-landing page good header
+on hover illustration, change color a bit(maybe not)
 
-on hover illustration, change color a bit
-
-vertical github or something else on the side
+vertical github or something else on the side(some random elements)
 
 when hover over contact input, make border-bottom highlight
 
@@ -22,6 +20,7 @@ on email make html mailto:
 ---------------------aws-------------------------
 
 ---------------------mobile----------------------
+individual project page learn more on the bottom
 ---------------------mobile----------------------
 
 ---------------------ie--------------------------
