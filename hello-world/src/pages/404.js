@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 
-export default function Home() {
+export default function NotFound() {
   return (
     <div style={{ color: 'lightblue' }}>
       <h1>Sorry, but this page doesn't exist.</h1>
