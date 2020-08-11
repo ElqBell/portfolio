@@ -14,6 +14,10 @@ navlink highlight current page
 
 on email make html mailto:
 
+make textarea only vertical
+
+DMD animation like yugen
+
 ---------------------general---------------------
 
 ---------------------aws-------------------------
