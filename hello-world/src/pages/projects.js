@@ -7,10 +7,10 @@ export default function Projects() {
     <Layout>
       <div style={{ color: 'lightblue' }}>
         <h1>all projects page</h1>
-        <Link to="/projects/1">1  </Link>
-        <Link to="/projects/2">2  </Link>
-        <Link to="/projects/3">3  </Link>
-        <Link to="/projects/4">4  </Link>
+        <Link to="/project/1">1  </Link>
+        <Link to="/project/2">2  </Link>
+        <Link to="/project/3">3  </Link>
+        <Link to="/project/4">4  </Link>
       </div>
     </Layout>
   );
