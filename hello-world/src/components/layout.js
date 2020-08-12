@@ -4,9 +4,9 @@ import "../styles/global.css";
 
 export default function Layout(props) {
   return (
-    <>
+    <div className="page-content">
         <Header/>
         <main>{props.children}</main>
-    </>
+    </div>
   );
 }

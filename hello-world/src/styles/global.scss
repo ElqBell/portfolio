@@ -1,0 +1,110 @@
+$background-color: rgb(43, 43, 49);
+$pink: rgb(192, 14, 77);
+$dark-gray: rgb(60, 60, 66);
+$light-gray: rgb(178, 178, 178);
+$dark-text: rgb(96, 96, 106);
+
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    //color: white;
+    //background-color: $background-color;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.heading-1 {
+    font-size: 36px;
+}
+
+.heading-2 {
+    font-size: 28px;
+}
+
+.heading-3 {
+    font-size: 20px;
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    background-color: $pink;
+    color: white;
+    width: 200px;
+    height: 65px;
+    line-height: 65px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.pink-text {
+    color: $pink;
+}
+
+div.page-content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    height: 100px;
+    border-bottom: 1px solid black;
+
+    a.logo {
+        display: inline-block;
+        padding: 0 20px;
+        line-height: 100px;
+    }
+
+    nav {
+        position: relative;
+        float: right;
+
+        ul {
+            margin: 0;
+            padding: 0;
+
+            li {
+                display: inline-block;
+                padding: 0 10px;
+                line-height: 100px;
+
+                a {
+
+                }
+            }
+        }
+    }
+}
+
+// @media only screen and (max-width: 1280px) {
+//     .container {
+//         columns: 3;
+//         width: calc(100% - 20px);
+//         padding: 0;
+//     }
+// }
+
+// @media only screen and (max-width: 768px) {
+//     .container {
+//         width: 100%;
+//     }
+// }
+
+// @media only screen and (max-width: 520px) {
+//     .container {
+//         columns: 2;
+//     }
+// }
+
+// @media only screen and (max-width: 360px) {
+//     .container {
+//         columns: 1;
+//     }
+// }
