@@ -1,20 +1,22 @@
 .main-content {
-  background-color: paleturquoise;
-  -webkit-columns: 2;
-          columns: 2;
   margin-top: 150px;
 }
 
-.main-content section .heading-1 {
-  width: 300px;
-  margin-bottom: 24px;
+.main-content section {
+  float: left;
+  width: 50%;
 }
 
-.main-content section article .heading-3 {
+.main-content section h1 {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.main-content section article h2 {
   margin: 8px 0;
 }
 
-.main-content section article .heading-3:last-of-type {
+.main-content section article h2:last-of-type {
   font-size: 18px;
 }
 
@@ -24,6 +26,11 @@
 
 .main-content section article a:nth-child(3) {
   margin-right: 16px;
+}
+
+.main-content aside {
+  float: left;
+  width: 50%;
 }
 
 .main-content aside img {

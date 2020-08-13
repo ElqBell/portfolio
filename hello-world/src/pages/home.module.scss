@@ -1,18 +1,19 @@
 @import '../style/variables';
 
 .main-content {
-    background-color: paleturquoise;
-    columns: 2;
     margin-top: 150px;
 
     section {
-        .heading-1 {
+        float: left;
+        width: 50%;
+
+        h1 {
             width: 300px;
-            margin-bottom: 24px;
+            margin-bottom: 20px;
         }
 
         article {
-            .heading-3 {
+            h2 {
                 margin: 8px 0;
 
                 &:last-of-type {
@@ -26,12 +27,14 @@
                 &:nth-child(3) {
                     margin-right: 16px;
                 }
-    
             }
         }
     }
 
     aside {
+        float: left;
+        width: 50%;
+
         img {
             max-width: 100%;
         }
