@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAEA,AAAA,aAAa,CAAC;EACV,gBAAgB,EAAE,SAAS;CAC9B",
     "sources": [
-        "project.module.scss"
+        "project.module.scss",
+        "../../style/_variables.scss"
     ],
     "names": [],
     "file": "project.module.css"

@@ -4,7 +4,7 @@ import Layout from "./layout/layout";
 
 export default function ProjectLayout(props) {
   return (
-    <Layout>
+    <Layout mainClass={props.mainClass}>
       <Link to="..">Go back  </Link>
       {props.children}
     </Layout>

@@ -5,7 +5,7 @@ import localStyles from "./about.module.css";
 
 export default function About() {
   return (
-    <Layout>
+    <Layout mainClass={localStyles.mainContent}>
       <section>
         <h1 className="heading-1">Hello, my name is Deimantas Butėnas.</h1>
         <article>

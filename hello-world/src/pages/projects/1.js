@@ -6,7 +6,7 @@ import localStyles from "./project.module.css";
 
 export default function Project1() {
   return (
-    <ProjectLayout>
+    <ProjectLayout mainClass={localStyles.mainContent}>
         <section>
           <h1 className="heading-1">1 Project name here</h1>
           <article>
