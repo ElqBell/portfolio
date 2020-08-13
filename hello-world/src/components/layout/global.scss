@@ -1,8 +1,4 @@
-$background-color: rgb(43, 43, 49);
-$pink: rgb(192, 14, 77);
-$dark-gray: rgb(60, 60, 66);
-$light-gray: rgb(178, 178, 178);
-$dark-text: rgb(96, 96, 106);
+@import '../../style/variables';
 
 html, body {
     box-sizing: border-box;
@@ -37,8 +33,8 @@ a {
     background-color: $pink;
     color: white;
     width: 200px;
-    height: 65px;
-    line-height: 65px;
+    height: 60px;
+    line-height: 60px;
     font-size: 18px;
     font-weight: bold;
 }

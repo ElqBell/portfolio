@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "gatsby";
-import Layout from "../../components/layout";
+import Layout from "../../components/layout/layout";
 import svgImagePerson from "../../images/svg/boy-sitting-tree-laptop-grass.svg";
-import svgImageBlocks from "../../images/svg/work-in-progress-blocks.svg";
+import svgImageBlocks from "../../images/svg/block.svg";
 import fallbackImagePerson from "../../images/svg/gallery-img.jpg";
 import fallbackImageBlocks from "../../images/svg/gallery-img.jpg";
 import gitHubIcon from "../../images/icons/github.png";
-import "../../styles/projects.css";
+import localStyles from "./projects.module.css";
 
 export default function Projects() {
   return (

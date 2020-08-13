@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "gatsby";
 import ProjectLayout from "../../components/projectLayout";
-import projectImage from "../../images/svg/work-in-progress-blocks.svg";
-import "../../styles/project.css";
+import projectImage from "../../images/svg/block.svg";
+import localStyles from "./project.module.css";
 
 export default function Project2() {
   return (

@@ -2,8 +2,8 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "projects.scss"
+        "project.module.scss"
     ],
     "names": [],
-    "file": "projects.css"
+    "file": "project.module.css"
 }

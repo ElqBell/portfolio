@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
-import Layout from "../components/layout";
-import "../styles/404.css";
+import Layout from "../../components/layout/layout";
+import localStyles from "./404.module.css";
 
 export default function NotFound() {
   return (

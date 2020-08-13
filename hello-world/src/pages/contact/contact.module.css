@@ -1,0 +1,10 @@
+.main-content {
+  background-color: palegreen;
+  -webkit-columns: 1;
+          columns: 1;
+}
+
+.testas {
+  color: #c00e4d;
+}
+/*# sourceMappingURL=contact.module.css.map */

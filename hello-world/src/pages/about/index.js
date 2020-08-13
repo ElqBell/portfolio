@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
-import Layout from "../components/layout";
-import "../styles/about.css";
+import Layout from "../../components/layout/layout";
+import localStyles from "./about.module.css";
 
 export default function About() {
   return (

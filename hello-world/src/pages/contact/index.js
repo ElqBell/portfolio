@@ -1,12 +1,12 @@
 import React from "react";
-import Layout from "../components/layout";
-import svgImage from "../images/svg/email-send-letter.svg";
-import fallbackImage from "../images/svg/gallery-img.jpg";
-import "../styles/contact.css";
+import Layout from "../../components/layout/layout";
+import svgImage from "../../images/svg/email-send-letter.svg";
+import fallbackImage from "../../images/svg/gallery-img.jpg";
+import localStyles from "./contact.module.css";
 
 export default function Contact() {
   return (
-    <Layout>
+    <Layout mainClass={localStyles.mainContent}>
       <section>
         <h1 className="heading-1">Send me a message</h1>
         <form onSubmit="">
@@ -23,7 +23,7 @@ export default function Contact() {
         </form>
       </section>
       <aside>
-        <h2 className="heading-2">Or if you'd rather contact me directly:</h2>
+        <h2 className={`heading-2 ${localStyles.testas}`}>Or if you'd rather contact me directly:</h2>
         <h2 className="heading-2">
           <a href="mailto:deimantas.butenas@gmail.com">
             deimantas.butenas@gmail.com
