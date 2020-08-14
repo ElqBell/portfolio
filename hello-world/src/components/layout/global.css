@@ -71,4 +71,9 @@ header nav ul li {
   padding: 0 10px;
   line-height: 100px;
 }
+
+main {
+  padding-left: 32px;
+  padding-right: 32px;
+}
 /*# sourceMappingURL=global.css.map */

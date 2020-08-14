@@ -21,11 +21,18 @@ DMD animation like yugen
 ---------------------general---------------------
 
 ---------------------aws-------------------------
+
 ---------------------aws-------------------------
 
 ---------------------mobile----------------------
 individual project page learn more on the bottom
+
+test landscape, portrait different browsers, ios, android
 ---------------------mobile----------------------
 
 ---------------------ie--------------------------
+test for ie11
 ---------------------ie--------------------------
+
+
+with a strong sense of ownership and attention to detail
