@@ -43,13 +43,6 @@
 
 .main-content section:last-of-type a, .main-content section:last-of-type h2 {
   display: inline-block;
-}
-
-.main-content section:last-of-type h2 {
-  padding-right: 32px;
-}
-
-.main-content section:last-of-type a {
-  margin-right: 42px;
+  margin-right: 32px;
 }
 /*# sourceMappingURL=about.module.css.map */

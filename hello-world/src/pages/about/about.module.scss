@@ -30,9 +30,6 @@
                         width: 40%;
                     }
 
-                    &:last-of-type {
-                    }
-
                     h2 {
                         padding-bottom: 12px;
                     }
@@ -51,16 +48,8 @@
         &:last-of-type {
             a, h2 {
                 display: inline-block;
+                margin-right: 32px;
             }
-
-            h2 {
-                padding-right: 32px;
-            }
-
-            a {
-                margin-right: 42px;
-            }
-
         }
     }
 }
