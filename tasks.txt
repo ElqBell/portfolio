@@ -4,21 +4,13 @@ make styles for 4k
 
 use background big watermark
 
-on hover illustration, change color a bit(maybe not)
-
 vertical github or something else on the side(some random elements)
-
-when hover over contact input, make border-bottom highlight
-
-navlink highlight current page
-
-on email make html mailto:
-
-make textarea only vertical
 
 DMD animation like yugen
 
 projects make on hover project picture make some kind of effect
+
+create svg fallback to png on error
 
 ---------------------general---------------------
 

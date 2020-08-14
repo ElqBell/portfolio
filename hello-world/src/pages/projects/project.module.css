@@ -1,4 +1,66 @@
 .main-content {
-  background-color: royalblue;
+  margin-top: 100px;
+  width: 1300px;
+}
+
+.main-content .link-back {
+  position: absolute;
+  margin-top: -70px;
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.main-content section {
+  float: left;
+  width: 40%;
+}
+
+.main-content section .project-number {
+  display: inline;
+  font-weight: bold;
+  margin-right: 4px;
+}
+
+.main-content section h1 {
+  display: inline-block;
+}
+
+.main-content section article {
+  padding: 0 64px 0 40px;
+  margin-top: 42px;
+}
+
+.main-content section article h2 {
+  margin-bottom: 12px;
+}
+
+.main-content section article p {
+  margin-left: 12px;
+  font-weight: bold;
+}
+
+.main-content section article ul {
+  margin-left: 32px;
+  font-size: 17px;
+}
+
+.main-content section article ul li {
+  margin-bottom: 6px;
+}
+
+.main-content aside {
+  float: left;
+  width: 60%;
+}
+
+.main-content aside a {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.main-content aside img {
+  width: 100%;
+  height: 500px;
 }
 /*# sourceMappingURL=project.module.css.map */
