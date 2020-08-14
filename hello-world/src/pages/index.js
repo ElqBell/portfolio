@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import Layout from "../components/layout/layout";
+import Layout from "../components/layout";
 import svgImage from "../images/svg/boy-standing-girl-sitting-on-laptop.svg";
 import fallbackImage from "../images/svg/gallery-img.jpg";
 import localStyles from "./home.module.css";

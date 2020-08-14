@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "../header";
-import "./global.css";
+import Header from "./header";
+import "../style/global.css";
 
 export default function Layout(props) {
   return (

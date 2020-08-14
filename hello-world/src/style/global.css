@@ -12,6 +12,10 @@ a {
   font-weight: bold;
 }
 
+a.active-link {
+  border-bottom: 1px solid #c00e4d;
+}
+
 .heading-1 {
   font-size: 36px;
 }

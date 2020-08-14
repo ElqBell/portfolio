@@ -1,1 +1,9 @@
-/* No CSS *//*# sourceMappingURL=404.module.css.map */
+.main-content {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.main-content a {
+  margin-top: 36px;
+}
+/*# sourceMappingURL=404.module.css.map */

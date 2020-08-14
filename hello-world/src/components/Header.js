@@ -10,22 +10,22 @@ export default function Header() {
             <nav>
                 <ul>
                     <li>
-                        <Link to="/">
+                        <Link to="/" activeClassName="active-link">
                             <span className="pink-text">H</span>OME
                         </Link>
                     </li>
                     <li>
-                        <Link to="/projects">
+                        <Link to="/projects" activeClassName="active-link" partiallyActive={true}>
                             <span className="pink-text">P</span>ROJECTS
                         </Link>
                     </li>
                     <li>
-                        <Link to="/about">
+                        <Link to="/about" activeClassName="active-link">
                             <span className="pink-text">A</span>BOUT
                         </Link>
                     </li>
                     <li>
-                        <Link to="/contact">
+                        <Link to="/contact" activeClassName="active-link">
                             <span className="pink-text">C</span>ONTACT
                         </Link>
                     </li>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import Layout from "../../components/layout/layout";
+import Layout from "../../components/layout";
 import svgImagePerson from "../../images/svg/boy-sitting-tree-laptop-grass.svg";
 import svgImageBlocks from "../../images/svg/block.svg";
 import fallbackImagePerson from "../../images/svg/gallery-img.jpg";
