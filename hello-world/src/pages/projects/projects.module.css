@@ -1,4 +1,80 @@
 .main-content {
-  background-color: peru;
+  margin-top: 100px;
+  width: 1400px;
+}
+
+.main-content section {
+  float: left;
+  width: calc(30% - 46px);
+  margin-right: 46px;
+  padding-left: 25px;
+}
+
+.main-content section article {
+  margin-top: 52px;
+}
+
+.main-content section article h2 {
+  margin-bottom: 16px;
+  width: 90%;
+}
+
+.main-content section article div.git-link {
+  height: 70px;
+}
+
+.main-content section article div.git-link img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 60px;
+  margin-right: 16px;
+}
+
+.main-content section article div.git-link a {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 60px;
+  font-size: 20px;
+}
+
+.main-content section article div.git-link a:hover {
+  color: #c00e4d;
+}
+
+.main-content section article .svg-div {
+  background-color: #c00e4d;
+  position: relative;
+  right: 0;
+  width: 330px;
+  height: 250px;
+  margin-top: 28px;
+}
+
+.main-content section article .svg-div img {
+  width: 330px;
+  margin-top: 14px;
+}
+
+.main-content aside {
+  float: left;
+  width: 70%;
+}
+
+.main-content aside div a {
+  background-color: #c00e4d;
+  display: inline-block;
+  width: 330px;
+  height: 250px;
+  margin: 0 46px 42px 0;
+}
+
+.main-content aside div a p {
+  line-height: 50px;
+  text-align: center;
+}
+
+.main-content aside div a img {
+  height: 200px;
+  width: 100%;
 }
 /*# sourceMappingURL=projects.module.css.map */

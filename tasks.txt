@@ -18,6 +18,8 @@ make textarea only vertical
 
 DMD animation like yugen
 
+projects make on hover project picture make some kind of effect
+
 ---------------------general---------------------
 
 ---------------------aws-------------------------

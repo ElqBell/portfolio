@@ -1,5 +1,83 @@
 @import '../../style/variables';
 
 .main-content {
-    background-color: peru;
+    margin-top: 100px;
+    width: 1400px;
+
+    section {
+        float: left;
+        width: calc(30% - 46px);
+        margin-right: 46px;
+        padding-left: 25px;
+
+        article {
+            margin-top: 52px;
+
+            h2 {
+                margin-bottom: 16px;
+                width: 90%;
+            }
+
+            div.git-link {
+                height: 70px;
+
+                img {
+                    display: inline-block;
+                    vertical-align: middle;
+                    width: 60px;
+                    margin-right: 16px;
+                }
+
+                a {
+                    display: inline-block;
+                    vertical-align: top;
+                    line-height: 60px;
+                    font-size: 20px;
+
+                    &:hover {
+                        color: $pink;
+                    }
+                }
+            }
+
+            .svg-div {
+                background-color: $pink;
+                position: relative;
+                right: 0;
+                width: 330px;
+                height: 250px;
+                margin-top: 28px;
+
+                img {
+                    width: 330px;
+                    margin-top: 14px;
+                }
+            }
+        }
+    }
+
+    aside {
+        float: left;
+        width: 70%;
+
+        div {
+            a {
+                background-color: $pink;
+                display: inline-block;
+                width: 330px;
+                height: 250px;
+                margin: 0 46px 42px 0;
+
+                p {
+                    line-height: 50px;
+                    text-align: center;
+                }
+
+                img {
+                    height: 200px;
+                    width: 100%;
+                }
+            }
+        }
+    }
 }

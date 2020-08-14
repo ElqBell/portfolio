@@ -14,21 +14,54 @@ export default function Projects() {
       <section>
         <h1 className="heading-1">Get to know me through my work.</h1>
         <article>
-          <h2 className="heading-2">You can find code examples and more projects on my</h2>
-          <a href="https://github.com/ElqBell">
+          <h2 className="heading-3">You can find code examples and more projects on my</h2>
+          <div className={localStyles.gitLink} href="https://github.com/ElqBell">
             <img src={gitHubIcon} alt="" />
-            GitHub
-          </a>
-          <img src={svgImageBlocks} onError={function(){this.src=fallbackImageBlocks}} alt="" />
+            <a href="https://github.com/ElqBell" target="_blank">GitHub</a>
+          </div>
+          <div className={localStyles.svgDiv}>
+            <img src={svgImagePerson} onError={function(){this.src=fallbackImagePerson}} alt="" />
+          </div>
         </article>
       </section>
       <aside>
-        <img src={svgImagePerson} onError={function(){this.src=fallbackImagePerson}} alt="" />
-        <Link to="/projects/1">1</Link>
-        <Link to="/projects/2">2</Link>
-        <Link to="/projects/3">3</Link>
-        <Link to="/projects/4">4</Link>
+        <div>
+          <Link to="/projects/1">
+            <p>Learn more</p>
+            <img src={fallbackImageBlocks} alt="First project page overview"/>
+          </Link>
+          <Link to="/projects/2">
+            <p>Learn more</p>
+            <img src={fallbackImageBlocks} alt="Second project page overview"/>
+          </Link>
+          <Link to="/projects/3">
+            <p>Learn more</p>
+            <img src={fallbackImageBlocks} alt="Third project page overview"/>
+          </Link>
+          <Link to="/projects/4">
+            <p>Learn more</p>
+            <img src={fallbackImageBlocks} alt="Fourth project page overview"/>
+          </Link> 
+        </div>
       </aside>
     </Layout>
   );
 }
+
+{/* <Link to="/projects/1">
+<img src={fallbackImageBlocks} alt="First project page overview"/>
+</Link>
+<Link to="/projects/2">
+<img src={fallbackImageBlocks} alt="Second project page overview"/>
+</Link>
+<Link to="/projects/3">
+<img src={fallbackImageBlocks} alt="Third project page overview"/>
+</Link>
+<Link to="/projects/4">
+<img src={fallbackImageBlocks} alt="Fourth project page overview"/>
+</Link> 
+
+<img className={localStyles.svgBlocks} src={svgImageBlocks} onError={function(){this.src=fallbackImageBlocks}} alt="" />
+<img src={svgImagePerson} onError={function(){this.src=fallbackImagePerson}} alt="" />
+
+*/}
