@@ -16,6 +16,14 @@ find a way to load svg efficiently + keep svg in cache
 
 solve projects page image loading with heights. maybe multiple sources or implement lazyloading
 
+compress all images
+
+make header font size maybe bigger + definitely bigger logo
+
+header menu
+
+contact page maybe remove svg when small screen (from background)
+
 ---------------------general---------------------
 
 ---------------------aws-------------------------
