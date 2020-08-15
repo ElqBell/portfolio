@@ -106,4 +106,26 @@
     margin-bottom: 32px;
   }
 }
+
+@media only screen and (max-width: 495px) {
+  .main-content section:last-of-type a {
+    margin: 0 16px 16px;
+  }
+  .main-content section:last-of-type a:last-of-type {
+    margin-right: 16px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .main-content section:first-of-type .article-wrapper article {
+    height: 300px;
+  }
+  .main-content section:last-of-type a {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .main-content section:last-of-type a:last-of-type {
+    margin-right: 0;
+  }
+}
 /*# sourceMappingURL=about.module.css.map */

@@ -76,7 +76,7 @@
   width: 50%;
 }
 
-.main-content aside h2 {
+.main-content aside h2, .main-content aside a {
   margin-left: 120px;
   color: #60606a;
 }
@@ -85,13 +85,107 @@
   margin-bottom: 18px;
 }
 
+.main-content aside a {
+  font-size: 28px;
+}
+
+.main-content aside a p {
+  display: inline;
+}
+
 .main-content aside img {
   display: block;
   margin: 32px 15% 0 auto;
   max-width: 50%;
 }
 
-.testas {
-  color: #c00e4d;
+@media only screen and (max-width: 1280px) {
+  .main-content aside h2, .main-content aside a {
+    margin-left: 80px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .main-content section {
+    width: 60%;
+    margin-right: 30px;
+  }
+  .main-content aside {
+    width: 30%;
+    margin-right: 20px;
+  }
+  .main-content aside h2, .main-content aside a {
+    margin-left: 0;
+  }
+  .main-content aside a p {
+    display: block;
+  }
+  .main-content aside img {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main-content {
+    margin-top: 70px;
+  }
+  .main-content section {
+    clear: both;
+    width: 100%;
+  }
+  .main-content aside {
+    width: 100%;
+    margin-top: 56px;
+    margin-bottom: 80px;
+  }
+  .main-content aside h2 {
+    display: inline;
+    font-size: 22px;
+  }
+  .main-content aside h2:first-of-type::after {
+    content: ' ';
+  }
+  .main-content aside a {
+    display: block;
+    margin-top: 8px;
+  }
+  .main-content aside a p {
+    display: inline;
+  }
+  .main-content aside img {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    opacity: 0.1;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .main-content section form br {
+    display: none;
+  }
+  .main-content section form label, .main-content section form input {
+    display: block;
+    width: 100%;
+  }
+  .main-content section form input {
+    margin-bottom: 20px;
+  }
+  .main-content section form input:first-of-type {
+    margin-bottom: 45px;
+  }
+  .main-content section form div label:last-of-type {
+    position: absolute;
+    margin-top: 81px;
+  }
+  .main-content aside a p {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .main-content aside a {
+    word-break: break-all;
+  }
 }
 /*# sourceMappingURL=contact.module.css.map */

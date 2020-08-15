@@ -78,12 +78,20 @@
         float: left;
         width: 50%;
 
-        h2 {
+        h2, a {
             margin-left: 120px;
             color: $dark-text;
+        }
 
-            &:nth-of-type(2) {
-                margin-bottom: 18px;
+        h2:nth-of-type(2) {
+            margin-bottom: 18px;
+        }
+
+        a {
+            font-size: 28px;
+
+            p {
+                display: inline;
             }
         }
 
@@ -95,6 +103,120 @@
     }
 }
 
-.testas {
-    color: $pink;
+@media only screen and (max-width: 1280px) {
+    .main-content aside {
+        h2, a {
+            margin-left: 80px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .main-content {
+        section {
+            width: 60%;
+            margin-right: 30px;
+        }
+
+        aside {
+            width: 30%;
+            margin-right: 20px;
+
+            h2, a {
+                margin-left: 0;
+            }
+
+            a p {
+                display: block;
+            }
+
+            img {
+                max-width: 100%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main-content {
+        margin-top: 70px;
+
+        section {
+            clear: both;
+            width: 100%;
+        }
+
+        aside {
+            width: 100%;
+            margin-top: 56px;
+            margin-bottom: 80px;
+
+            h2 {
+                display: inline;
+                font-size: 22px;
+
+                &:first-of-type::after {
+                    content: ' ';
+                }
+            }
+
+            a {
+                display: block;
+                margin-top: 8px;
+
+                p {
+                    display: inline;
+                }
+            }
+
+            img {
+                position: absolute;
+                top: 0;
+                z-index: -1;
+                opacity: 0.1;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .main-content {
+        section {
+            form {
+                br {
+                    display: none;
+                }
+
+                label, input {
+                    display: block;
+                    width: 100%;
+                }
+
+                input {
+                    margin-bottom: 20px;
+
+                    &:first-of-type {
+                        margin-bottom: 45px;
+                    }
+                }
+
+                div {
+                    label:last-of-type {
+                        position: absolute;
+                        margin-top: 81px;
+                    }
+                }
+            }
+        }
+
+        aside a p {
+            display: block;
+        }
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .main-content aside a {
+        word-break: break-all;
+    }
 }

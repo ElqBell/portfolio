@@ -136,12 +136,31 @@
     }
 }
 
-@media only screen and (max-width: 520px) {
-    .page-content {
+@media only screen and (max-width: 495px) {
+    .main-content section:last-of-type a {
+        margin: 0 16px 16px;
+
+        &:last-of-type {
+           margin-right: 16px;
+        }
     }
 }
 
 @media only screen and (max-width: 360px) {
-    .page-content {
+    .main-content {
+        section {
+            &:first-of-type .article-wrapper article {
+                height: 300px;
+            }
+
+            &:last-of-type a {
+                margin-right: 0;
+                margin-left: 0;
+
+                &:last-of-type {
+                    margin-right: 0;
+                 }
+            }
+        }
     }
 }
