@@ -1,12 +1,10 @@
 .main-content {
-  margin-top: 100px;
-  width: 1400px;
+  margin-top: 70px;
 }
 
 .main-content section {
   float: left;
-  width: calc(30% - 46px);
-  margin-right: 46px;
+  width: 30%;
   padding-left: 25px;
 }
 
@@ -35,6 +33,7 @@
   vertical-align: top;
   line-height: 60px;
   font-size: 20px;
+  color: #c00e4d;
 }
 
 .main-content section article div.git-link a:hover {
@@ -57,7 +56,8 @@
 
 .main-content aside {
   float: left;
-  width: 70%;
+  width: calc(70% - 42px);
+  margin-left: 42px;
 }
 
 .main-content aside div a {
@@ -76,5 +76,92 @@
 .main-content aside div a img {
   height: 200px;
   width: 100%;
+}
+
+@media only screen and (max-width: 1280px) {
+  .main-content section {
+    width: 100%;
+    clear: both;
+  }
+  .main-content section article {
+    margin-top: 12px;
+    margin-bottom: 32px;
+  }
+  .main-content section article h2 {
+    display: inline;
+    line-height: 70px;
+    vertical-align: middle;
+  }
+  .main-content section article div.git-link {
+    display: inline-block;
+    margin-left: 16px;
+  }
+  .main-content section article div.git-link img {
+    margin-right: 12px;
+  }
+  .main-content section article .svg-div {
+    display: none;
+  }
+  .main-content aside {
+    width: 100%;
+    margin: 0;
+  }
+  .main-content aside div {
+    text-align: center;
+  }
+  .main-content aside div a {
+    width: 430px;
+    height: 300px;
+  }
+  .main-content aside div a:nth-child(2), .main-content aside div a:last-child {
+    margin-right: 0;
+  }
+  .main-content aside div a p {
+    line-height: 50px;
+  }
+  .main-content aside div a img {
+    height: 250px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .main-content section article h2 {
+    line-height: 32px;
+  }
+  .main-content section article div.git-link {
+    display: block;
+    margin-top: 6px;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .main-content aside div a {
+    width: 330px;
+    height: 250px;
+  }
+  .main-content aside div a img {
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main-content aside div a {
+    width: 100%;
+    height: 56.25%;
+    margin: 0 0 36px;
+  }
+  .main-content aside div a img {
+    height: 100%;
+    vertical-align: bottom;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  main {
+    padding: 0;
+  }
+  main.main-content section {
+    padding-right: 24px;
+  }
 }
 /*# sourceMappingURL=projects.module.css.map */

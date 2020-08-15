@@ -12,6 +12,10 @@ projects make on hover project picture make some kind of effect
 
 create svg fallback to png on error
 
+find a way to load svg efficiently + keep svg in cache
+
+solve projects page image loading with heights. maybe multiple sources or implement lazyloading
+
 ---------------------general---------------------
 
 ---------------------aws-------------------------
