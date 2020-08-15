@@ -34,9 +34,38 @@
     aside {
         float: left;
         width: 50%;
+        padding-left: 40px;
 
         img {
             max-width: 100%;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main-content {
+        section {
+            width: 100%;
+            padding-left: 48px;
+            padding-bottom: 80px;
+
+            h1 {
+                width: 80%;
+            }
+        }
+
+        aside {
+            display: none;
+        }
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .main-content {
+        margin-top: 70px;
+    
+        section {
+            padding-left: 16px;
         }
     }
 }

@@ -6,11 +6,10 @@ import fallbackImage from "../images/svg/gallery-img.jpg";
 import localStyles from "./home.module.css";
 
 export default function Home() {
-  console.log(localStyles);
   return (
       <Layout mainClass={localStyles.mainContent}>
         <section>
-          <h1 className="heading-1">I help you to connect with your customers</h1>
+          <h1 className="heading-1">I help you to connect with your customers.</h1>
           <article>
             <h2 className="heading-3">Frontend developer & designer</h2>
             <h2 className="heading-3">Deimantas Butėnas</h2>

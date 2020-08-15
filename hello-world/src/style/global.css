@@ -13,7 +13,7 @@ a {
 }
 
 a.active-link {
-  border-bottom: 1px solid #c00e4d;
+  border-bottom: 2px solid #c00e4d;
 }
 
 .heading-1 {
@@ -44,7 +44,7 @@ a.active-link {
   color: #c00e4d;
 }
 
-div.page-content {
+.page-content {
   width: 1200px;
   margin: 0 auto;
 }
@@ -76,8 +76,18 @@ header nav ul li {
   line-height: 100px;
 }
 
-main {
-  padding-left: 32px;
-  padding-right: 32px;
+@media only screen and (max-width: 1280px) {
+  .page-content {
+    width: calc(100% - 56px);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .page-content {
+    width: 100%;
+  }
+  main {
+    padding: 0 28px;
+  }
 }
 /*# sourceMappingURL=global.css.map */

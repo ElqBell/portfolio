@@ -19,7 +19,7 @@ a {
     font-weight: bold;
 
     &.active-link {
-        border-bottom: 1px solid $pink;
+        border-bottom: 2px solid $pink;
     }
 }
 
@@ -51,7 +51,7 @@ a {
     color: $pink;
 }
 
-div.page-content {
+.page-content {
     width: 1200px;
     margin: 0 auto;
 }
@@ -78,42 +78,23 @@ header {
                 display: inline-block;
                 padding: 0 10px;
                 line-height: 100px;
-
-                a {
-
-                }
             }
         }
     }
 }
 
-main {
-    padding-left: 32px;
-    padding-right: 32px;
+@media only screen and (max-width: 1280px) {
+    .page-content {
+        width: calc(100% - 56px);
+    }
 }
 
-// @media only screen and (max-width: 1280px) {
-//     .container {
-//         columns: 3;
-//         width: calc(100% - 20px);
-//         padding: 0;
-//     }
-// }
+@media only screen and (max-width: 768px) {
+    .page-content {
+        width: 100%;
+    }
 
-// @media only screen and (max-width: 768px) {
-//     .container {
-//         width: 100%;
-//     }
-// }
-
-// @media only screen and (max-width: 520px) {
-//     .container {
-//         columns: 2;
-//     }
-// }
-
-// @media only screen and (max-width: 360px) {
-//     .container {
-//         columns: 1;
-//     }
-// }
+    main {
+        padding: 0 28px;
+    }
+}
