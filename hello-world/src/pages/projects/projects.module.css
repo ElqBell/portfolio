@@ -65,6 +65,11 @@
   width: 355px;
   height: 272px;
   margin: 0 24px 20px 0;
+  outline: none;
+}
+
+.main-content aside div a.coming-soon p {
+  opacity: 0;
 }
 
 .main-content aside div a p {

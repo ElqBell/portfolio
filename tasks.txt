@@ -17,6 +17,8 @@ maybe remove svg-div from projects page or remove some svg parts from it
 
 fix svg colors
 
+create favicon, seo meta tags, maybe manifest for phone app
+
 ---------------------general---------------------
 
 ---------------------aws-------------------------

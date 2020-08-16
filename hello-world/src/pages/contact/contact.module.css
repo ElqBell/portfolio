@@ -68,7 +68,7 @@
 }
 
 .main-content section form button:focus {
-  outline-color: white;
+  outline: none;
 }
 
 .main-content aside {

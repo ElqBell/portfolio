@@ -5,27 +5,24 @@ import localStyles from "./contact.module.css";
 
 function submitToAPI(e) {
   e.preventDefault();
-  e.target.reset();
   const url = 'https://3jxqp8oiza.execute-api.eu-central-1.amazonaws.com/beta/contact/';
-  
   const data = {
       name: document.getElementById("name").value,
       email: document.getElementById("email").value,
       msg: document.getElementById("message").value
   };
-  
+
+  e.target.reset();
+
   const options = {
     method: 'POST',
     body: JSON.stringify(data),
     headers: {
       'Content-Type': 'application/json; charset=utf-8',
-      'Cross-Domain': 'true'
     }
   };
   
-  fetch(url, options)
-    .then(function(res){return res.json()})
-    .then(function(res){console.log(res)});
+  fetch(url, options).then(function(res){console.log(res)});
 }
 
 export default function Contact() {

@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import Layout from "../../components/layout";
 import { GitHub, SVGBoy, SVGBoyFallback, ProjectIMG1,
-         ProjectIMG2, ProjectIMG3, ProjectIMG4
+         ProjectIMG2, ProjectIMG3, ProjectIMG4, ComingSoon
        } from "../../images";
 import localStyles from "./projects.module.css";
 
@@ -28,17 +28,17 @@ export default function Projects() {
             <p>Learn more</p>
             <img src={ProjectIMG1} alt="First project page overview"/>
           </Link>
-          <Link to="/projects/2">
+          <Link className={localStyles.comingSoon}>
             <p>Learn more</p>
-            <img src={ProjectIMG2} alt="Second project page overview"/>
+            <img src={ComingSoon} alt="Second project page overview"/>
           </Link>
-          <Link to="/projects/3">
+          <Link className={localStyles.comingSoon}>
             <p>Learn more</p>
-            <img src={ProjectIMG3} alt="Third project page overview"/>
+            <img src={ComingSoon} alt="Third project page overview"/>
           </Link>
-          <Link to="/projects/4">
+          <Link className={localStyles.comingSoon}>
             <p>Learn more</p>
-            <img src={ProjectIMG4} alt="Fourth project page overview"/>
+            <img src={ComingSoon} alt="Fourth project page overview"/>
           </Link> 
         </div>
       </aside>

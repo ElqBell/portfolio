@@ -38,7 +38,7 @@ export default function Project4() {
           </article>
         </section>
         <aside>
-          <Link to="#" target="_blank" className="button">
+          <Link to="preview" className="button">
             <p>View project</p>
             <img src={ProjectIMG4} alt="Project page overview"/>
           </Link>

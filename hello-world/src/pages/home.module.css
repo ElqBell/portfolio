@@ -65,7 +65,7 @@
 
 @media only screen and (max-width: 480px) {
   .main-content section article a {
-    margin: 32px calc((100% - 232px) / 2) 0;
+    margin: 24px calc((100% - 232px) / 2) 0;
   }
 }
 /*# sourceMappingURL=home.module.css.map */
