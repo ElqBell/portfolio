@@ -1,8 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import Layout from "../components/layout";
-import svgImage from "../images/svg/boy-standing-girl-sitting-on-laptop.svg";
-import fallbackImage from "../images/svg/gallery-img.jpg";
+import { SVGBoyGirl, SVGBoyGirlFallback } from "../images";
 import localStyles from "./home.module.css";
 
 export default function Home() {
@@ -18,7 +17,7 @@ export default function Home() {
           </article>
         </section>
         <aside>
-          <img src={svgImage} onError={function(){this.src=fallbackImage}} alt="" />
+          <img src={SVGBoyGirl} onError={function(){this.src=SVGBoyGirlFallback}} alt="" />
         </aside>
       </Layout>
   );

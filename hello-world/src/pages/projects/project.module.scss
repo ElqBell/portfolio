@@ -68,12 +68,14 @@
         width: calc(60% - 26px);
         margin: 93px 0 0 26px;
 
-        a, img {
+        a {
             width: 100%;
-        }
-
-        img {
             height: 56.25%; // 16:9 aspect ratio
+
+            img {
+                width: 100%;
+                vertical-align: bottom;
+            }
         }
     }
 }

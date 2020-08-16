@@ -1,41 +1,35 @@
 import React from "react";
 import { Link } from "gatsby";
-import toggleMobileNavigation from "../scripts/toggle-mobile-navigation";
-
-function removeScrollLock() {
-    document.getElementsByTagName("html")[0].classList.remove("scroll-lock");
-}
+import { toggleMobileNavigation } from "../scripts/toggle-mobile-navigation";
 
 export default function Header() {
     return (
         <header>
             <Link to="/" className="logo">
-            <span className="pink-text">D</span>MD
+                <span className="pink-text">D</span>MD
             </Link>
-            <div className="mobile-navigation-bar" onClick={toggleMobileNavigation}>
-                <div></div>
-                <div></div>
-                <div></div>
+            <div className="nav-menu" onClick={toggleMobileNavigation}>
+                <span className="pink-text">M</span>ENU
             </div>
             <nav>
                 <ul>
                     <li>
-                        <Link to="/" activeClassName="active-link" onClick={removeScrollLock}>
+                        <Link to="/" activeClassName="active-link">
                             <span className="pink-text">H</span>OME
                         </Link>
                     </li>
                     <li>
-                        <Link to="/projects" activeClassName="active-link" partiallyActive={true} onClick={removeScrollLock}>
+                        <Link to="/projects" activeClassName="active-link" partiallyActive={true}>
                             <span className="pink-text">P</span>ROJECTS
                         </Link>
                     </li>
                     <li>
-                        <Link to="/about" activeClassName="active-link" onClick={removeScrollLock}>
+                        <Link to="/about" activeClassName="active-link">
                             <span className="pink-text">A</span>BOUT
                         </Link>
                     </li>
                     <li>
-                        <Link to="/contact" activeClassName="active-link" onClick={removeScrollLock}>
+                        <Link to="/contact" activeClassName="active-link">
                             <span className="pink-text">C</span>ONTACT
                         </Link>
                     </li>

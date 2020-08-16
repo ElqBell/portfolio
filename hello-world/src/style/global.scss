@@ -16,10 +16,10 @@ html, body {
 a {
     text-decoration: none;
     font-weight: bold;
+}
 
-    &.active-link {
-        border-bottom: 2px solid $pink;
-    }
+.active-link {
+    border-bottom: 2px solid $pink;
 }
 
 .heading-1 {
@@ -53,10 +53,6 @@ a {
     display: none !important;
 }
 
-.scroll-lock {
-    overflow: hidden;
-}
-
 .page-content {
     width: 1200px;
     margin: 0 auto;
@@ -65,6 +61,10 @@ a {
 header {
     height: 100px;
     margin: 0 auto;
+
+    span {
+        font-weight: bold;
+    }
 
     a.logo {
         display: inline-block;
@@ -79,7 +79,7 @@ header {
 
         ul {
             margin: 0;
-            padding: 0;
+            padding: 0 0 24px 0;
 
             li {
                 display: inline-block;
@@ -89,12 +89,10 @@ header {
         }
     }
 
-    .mobile-navigation-bar {
-        display: none;
+    .nav-menu {
         position: absolute;
         right: 0;
-        margin: 32px 24px 0 0;
-        padding: 8px;
+        margin: 40px 32px 0 0;
         cursor: pointer;
 
         div {
@@ -123,14 +121,20 @@ header {
     }
 }
 
-/* if screen width is 768px or smaller,
+@media only screen and (min-width: 521px) {
+    header .nav-menu {
+        display: none;
+    }
+}
+
+/* if screen width is 520px or smaller,
    change header navigation to mobile design */
-   @media only screen and (max-width: 520px) {
+@media only screen and (max-width: 520px) {
     header {
         nav {
             float: none;
             display: none;
-            margin: 20px auto 0;
+            margin: 8px auto 0;
 
             ul {
                 text-align: center;
@@ -150,52 +154,8 @@ header {
             display: none;
         }
 
-        .mobile-navigation-bar {
+        .nav-menu {
             display: inline-block;
-        }
-    }
-
-    /* HEIGHT media queries for landscape navigation view*/
-    @media only screen and (max-height: 365px) {
-        header {
-            ul.navigation {
-                //columns: 2;
-                //padding: 0 20px;
-            }
-
-            .social-media-icons ul {
-                //margin: 50px 15px 0 10px;
-            }
-        }
-    }
-
-    @media only screen and (max-height: 320px) {
-        header .social-media-icons ul {
-            //margin-top: 20px;
-        }
-    }
-
-    @media only screen and (max-height: 280px) {
-        header {
-            ul.navigation li {
-                //margin-top: 6px;
-            }
-
-            .social-media-icons ul {
-                //margin-top: 0;
-            }
-        }
-    }
-
-    @media only screen and (max-height: 245px) {
-        header {
-            nav {
-                //margin: 0;
-            }
-
-            ul.navigation {
-                //margin: 8px 0 0;
-            }
         }
     }
 }

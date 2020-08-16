@@ -1,34 +1,21 @@
 ---------------------general---------------------
 
-make styles for 4k
-
-use background big watermark
 
 vertical github or something else on the side(some random elements)
 
 DMD animation like yugen
 
-projects make on hover project picture make some kind of effect
+projects make on hover project picture some kind of effect
 
 create svg fallback to png on error
 
 find a way to load svg efficiently + keep svg in cache
 
-solve projects page image loading with heights. maybe multiple sources or implement lazyloading
-
 compress all images
-
-make header font size maybe bigger + definitely bigger logo
-
-header menu
-
-contact page maybe remove svg when small screen (from background)
 
 maybe remove svg-div from projects page or remove some svg parts from it
 
 fix svg colors
-
-individual project page make the whole picture clickable anchor like all project page
 
 ---------------------general---------------------
 
@@ -37,8 +24,6 @@ individual project page make the whole picture clickable anchor like all project
 ---------------------aws-------------------------
 
 ---------------------mobile----------------------
-individual project page learn more on the bottom
-
 test landscape, portrait different browsers, ios, android
 ---------------------mobile----------------------
 

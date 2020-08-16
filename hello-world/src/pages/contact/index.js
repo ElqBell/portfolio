@@ -1,7 +1,6 @@
 import React from "react";
 import Layout from "../../components/layout";
-import svgImage from "../../images/svg/email-send-letter.svg";
-import fallbackImage from "../../images/svg/gallery-img.jpg";
+import { SVGEmail, SVGEmailFallback } from "../../images";
 import localStyles from "./contact.module.css";
 
 function submitToAPI(e) {
@@ -67,7 +66,7 @@ export default function Contact() {
         <h2 className="heading-2">Or if you'd rather</h2>
         <h2 className="heading-2">contact me directly:</h2>
         <a href="mailto:deimantas.butenas@gmail.com">deimantas.butenas<p>@gmail.com</p></a>
-        <img src={svgImage} onError={function(){this.src=fallbackImage}} alt="" />
+        <img src={SVGEmail} onError={function(){this.src=SVGEmailFallback}} alt="" />
       </aside>
     </Layout>
   );

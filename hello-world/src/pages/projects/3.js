@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import ProjectLayout from "../../components/projectLayout";
-import projectImage from "../../images/svg/gallery-img.jpg";
+import { ProjectIMG3 } from "../../images";
 import localStyles from "./project.module.css";
 
 export default function Project3() {
@@ -38,8 +38,10 @@ export default function Project3() {
           </article>
         </section>
         <aside>
-          <Link to="#" target="_blank" className="button">View project</Link>
-          <img src={projectImage} alt="Project page overview" />
+          <Link to="#" target="_blank" className="button">
+            <p>View project</p>
+            <img src={ProjectIMG3} alt="Project page overview"/>
+          </Link>
         </aside>
     </ProjectLayout>
   );

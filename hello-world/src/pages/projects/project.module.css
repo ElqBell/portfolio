@@ -68,12 +68,14 @@
   margin: 93px 0 0 26px;
 }
 
-.main-content aside a, .main-content aside img {
+.main-content aside a {
   width: 100%;
+  height: 56.25%;
 }
 
-.main-content aside img {
-  height: 56.25%;
+.main-content aside a img {
+  width: 100%;
+  vertical-align: bottom;
 }
 
 @media only screen and (max-width: 1280px) {
