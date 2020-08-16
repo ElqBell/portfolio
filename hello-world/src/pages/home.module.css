@@ -5,15 +5,17 @@
 .main-content section {
   float: left;
   width: 50%;
+  padding-left: 48px;
 }
 
 .main-content section h1 {
-  width: 300px;
+  width: 320px;
   margin-bottom: 20px;
 }
 
 .main-content section article h2 {
   margin: 8px 0;
+  color: #b2b2b2;
 }
 
 .main-content section article h2:last-of-type {
@@ -57,7 +59,13 @@
     margin-top: 70px;
   }
   .main-content section {
-    padding-left: 16px;
+    padding-left: 32px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .main-content section article a {
+    margin: 32px calc((100% - 232px) / 2) 0;
   }
 }
 /*# sourceMappingURL=home.module.css.map */

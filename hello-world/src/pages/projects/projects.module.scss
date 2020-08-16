@@ -5,11 +5,11 @@
 
     section {
         float: left;
-        width: 30%;
+        width: 32%;
         padding-left: 25px;
 
         article {
-            margin-top: 52px;
+            margin-top: 32px;
 
             h2 {
                 margin-bottom: 16px;
@@ -40,12 +40,12 @@
             }
 
             .svg-div {
-                background-color: $pink;
+                //background-color: rgba($darker-gray, 0.6);
                 position: relative;
                 right: 0;
                 width: 330px;
                 height: 250px;
-                margin-top: 28px;
+                margin-top: 16px;
 
                 img {
                     width: 330px;
@@ -57,16 +57,16 @@
 
     aside {
         float: left;
-        width: calc(70% - 42px);
+        width: calc(68% - 42px);
         margin-left: 42px;
 
         div {
             a {
                 background-color: $pink;
                 display: inline-block;
-                width: 330px;
-                height: 250px;
-                margin: 0 46px 42px 0;
+                width: 355px;
+                height: 272px;
+                margin: 0 24px 20px 0;
 
                 p {
                     line-height: 50px;
@@ -74,7 +74,7 @@
                 }
 
                 img {
-                    height: 200px;
+                    height: 222px;
                     width: 100%;
                 }
             }

@@ -9,6 +9,7 @@
 .main-content section:first-of-type h3 {
   font-weight: normal;
   width: 58%;
+  color: #b2b2b2;
 }
 
 .main-content section:first-of-type .article-wrapper {
@@ -18,10 +19,10 @@
 .main-content section:first-of-type .article-wrapper article {
   display: inline-block;
   vertical-align: top;
-  height: 220px;
+  height: 250px;
   width: calc(60% - 42px);
   padding: 32px 32px 26px;
-  background-color: rgba(178, 178, 178, 0.2);
+  background-color: rgba(96, 96, 106, 0.3);
 }
 
 .main-content section:first-of-type .article-wrapper article:first-of-type {
@@ -39,6 +40,7 @@
 
 .main-content section:first-of-type .article-wrapper article ul li {
   font-size: 18px;
+  color: #c8c8c8;
 }
 
 .main-content section:last-of-type a, .main-content section:last-of-type h2 {
@@ -107,7 +109,16 @@
   }
 }
 
+@media only screen and (max-width: 520px) {
+  .main-content section:first-of-type h1, .main-content section:first-of-type h3 {
+    padding-left: 16px;
+  }
+}
+
 @media only screen and (max-width: 495px) {
+  .main-content section:first-of-type h2 {
+    font-size: 24px;
+  }
   .main-content section:last-of-type a {
     margin: 0 16px 16px;
   }

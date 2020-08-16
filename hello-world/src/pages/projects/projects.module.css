@@ -4,12 +4,12 @@
 
 .main-content section {
   float: left;
-  width: 30%;
+  width: 32%;
   padding-left: 25px;
 }
 
 .main-content section article {
-  margin-top: 52px;
+  margin-top: 32px;
 }
 
 .main-content section article h2 {
@@ -41,12 +41,11 @@
 }
 
 .main-content section article .svg-div {
-  background-color: #c00e4d;
   position: relative;
   right: 0;
   width: 330px;
   height: 250px;
-  margin-top: 28px;
+  margin-top: 16px;
 }
 
 .main-content section article .svg-div img {
@@ -56,16 +55,16 @@
 
 .main-content aside {
   float: left;
-  width: calc(70% - 42px);
+  width: calc(68% - 42px);
   margin-left: 42px;
 }
 
 .main-content aside div a {
   background-color: #c00e4d;
   display: inline-block;
-  width: 330px;
-  height: 250px;
-  margin: 0 46px 42px 0;
+  width: 355px;
+  height: 272px;
+  margin: 0 24px 20px 0;
 }
 
 .main-content aside div a p {
@@ -74,7 +73,7 @@
 }
 
 .main-content aside div a img {
-  height: 200px;
+  height: 222px;
   width: 100%;
 }
 

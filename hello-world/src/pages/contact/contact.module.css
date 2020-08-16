@@ -31,7 +31,7 @@
 }
 
 .main-content section form input {
-  padding: 4px;
+  padding: 4px 8px;
   height: 60px;
   width: calc(50% - 8px);
 }
@@ -41,7 +41,7 @@
 }
 
 .main-content section form textarea {
-  padding: 6px;
+  padding: 4px 8px;
   resize: vertical;
   width: 100%;
   height: 180px;
@@ -51,7 +51,7 @@
   border: none;
   border-bottom: 2px solid #3c3c42;
   color: white;
-  font-size: 22px;
+  font-size: 20px;
   background-color: #3c3c42;
 }
 
@@ -78,6 +78,9 @@
 
 .main-content aside h2, .main-content aside a {
   margin-left: 120px;
+}
+
+.main-content aside h2 {
   color: #60606a;
 }
 
@@ -105,6 +108,16 @@
   }
 }
 
+@media only screen and (max-width: 1124px) {
+  .main-content aside a p {
+    margin-left: 50px;
+    display: block;
+  }
+  .main-content aside h2, .main-content aside a {
+    margin-left: 50px;
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   .main-content section {
     width: 60%;
@@ -114,11 +127,11 @@
     width: 30%;
     margin-right: 20px;
   }
-  .main-content aside h2, .main-content aside a {
+  .main-content aside a p {
     margin-left: 0;
   }
-  .main-content aside a p {
-    display: block;
+  .main-content aside h2, .main-content aside a {
+    margin-left: 0;
   }
   .main-content aside img {
     max-width: 100%;
@@ -161,8 +174,14 @@
 }
 
 @media only screen and (max-width: 520px) {
+  .main-content section h1 {
+    padding-left: 16px;
+  }
   .main-content section form br {
     display: none;
+  }
+  .main-content section form label {
+    padding-left: 16px;
   }
   .main-content section form label, .main-content section form input {
     display: block;
@@ -177,6 +196,9 @@
   .main-content section form div label:last-of-type {
     position: absolute;
     margin-top: 81px;
+  }
+  .main-content aside {
+    padding-left: 16px;
   }
   .main-content aside a p {
     display: block;

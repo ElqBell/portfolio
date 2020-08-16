@@ -4,11 +4,16 @@
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  color: white;
+  font-family: "Arial Black", Arial, sans-serif;
+}
+
+html, body {
+  background-color: #282834;
 }
 
 a {
   text-decoration: none;
-  color: black;
   font-weight: bold;
 }
 
@@ -32,7 +37,6 @@ a.active-link {
   display: inline-block;
   text-align: center;
   background-color: #c00e4d;
-  color: white;
   width: 200px;
   height: 60px;
   line-height: 60px;
@@ -51,7 +55,6 @@ a.active-link {
 
 header {
   height: 100px;
-  border-bottom: 1px solid black;
   margin: 0 auto;
 }
 

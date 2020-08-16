@@ -24,6 +24,8 @@ header menu
 
 contact page maybe remove svg when small screen (from background)
 
+maybe remove svg-div from projects page or remove some svg parts from it
+
 ---------------------general---------------------
 
 ---------------------aws-------------------------

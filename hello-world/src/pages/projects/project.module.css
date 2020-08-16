@@ -20,7 +20,8 @@
 .main-content section .project-number {
   display: inline;
   font-weight: bold;
-  margin-right: 4px;
+  margin-right: 6px;
+  color: #9b9b9b;
 }
 
 .main-content section h1 {
@@ -28,10 +29,10 @@
 }
 
 .main-content section article {
-  padding: 32px 48px 32px 40px;
+  padding: 24px 24px 32px 40px;
   margin-right: 16px;
   margin-top: 16px;
-  background-color: rgba(178, 178, 178, 0.2);
+  background-color: rgba(96, 96, 106, 0.3);
 }
 
 .main-content section article:first-of-type {
@@ -48,6 +49,7 @@
 
 .main-content section article p {
   font-weight: bold;
+  color: #c8c8c8;
 }
 
 .main-content section article ul {
@@ -57,13 +59,13 @@
 
 .main-content section article ul li {
   margin-bottom: 6px;
+  color: #c8c8c8;
 }
 
 .main-content aside {
   float: left;
   width: calc(60% - 26px);
-  margin-right: 26px;
-  margin-top: 84px;
+  margin: 93px 0 0 26px;
 }
 
 .main-content aside a, .main-content aside img {
@@ -81,7 +83,7 @@
 @media only screen and (max-width: 1280px) {
   .main-content aside {
     width: 60%;
-    margin-right: 0;
+    margin-left: 0;
   }
 }
 
@@ -93,7 +95,7 @@
     display: inline-block;
     vertical-align: top;
     width: calc(50% - 8px);
-    height: 350px;
+    height: 420px;
   }
   .main-content section article:nth-of-type(2) {
     margin-right: 16px;
