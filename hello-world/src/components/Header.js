@@ -3,12 +3,16 @@ import { Link } from "gatsby";
 import { toggleMobileNavigation } from "../scripts/toggle-mobile-navigation";
 
 export default function Header() {
+    const handleClick = function(e) {
+        if (e.keyCode === 13) toggleMobileNavigation();
+    };
+
     return (
         <header>
             <Link to="/" className="logo">
                 <span className="pink-text">D</span>MD
             </Link>
-            <div className="nav-menu" onClick={toggleMobileNavigation}>
+            <div className="nav-menu" role="button" tabIndex="0" onClick={toggleMobileNavigation} onKeyDown={handleClick}>
                 <span className="pink-text">M</span>ENU
             </div>
             <nav>

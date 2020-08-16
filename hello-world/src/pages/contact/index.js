@@ -5,6 +5,7 @@ import localStyles from "./contact.module.css";
 
 function submitToAPI(e) {
   e.preventDefault();
+  e.target.reset();
   const url = 'https://3jxqp8oiza.execute-api.eu-central-1.amazonaws.com/beta/contact/';
   
   const data = {
@@ -18,37 +19,20 @@ function submitToAPI(e) {
     body: JSON.stringify(data),
     headers: {
       'Content-Type': 'application/json; charset=utf-8',
-      //'Cross-Domain': 'true'
+      'Cross-Domain': 'true'
     }
   };
   
-  // fetch(url, options)
-  //   .then(function(res){return res.json()})
-  //   .then(function(res){console.log(res)});
-
-  // $.ajax({
-  //     type: "POST",
-  //     url : "https://3jxqp8oiza.execute-api.eu-central-1.amazonaws.com/beta/contact/",
-  //     crossDomain: "true",
-  //     contentType: "application/json; charset=utf-8",
-  //     data: JSON.stringify(data),
-  //     success: function () {
-  //       document.getElementById("contact-form").reset();
-  //       document.getElementById("email-submit-button").blur();
-  //     },
-  //     error: function () {
-  //       document.getElementById("contact-form").reset();
-  //       document.getElementById("email-submit-button").blur();
-  //       alert("Something went wrong. Try again or use another contact method.")
-  //     }
-  // });
+  fetch(url, options)
+    .then(function(res){return res.json()})
+    .then(function(res){console.log(res)});
 }
 
 export default function Contact() {
   return (
     <Layout mainClass={localStyles.mainContent}>
       <section>
-        <h1 className="heading-1">Send me a message</h1>
+        <h1 className="heading-1">Send me a message.</h1>
         <form id="contact-form" onSubmit={submitToAPI}>
           <div>
             <label htmlFor="name">Name</label>

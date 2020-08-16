@@ -12,7 +12,7 @@ export default function Projects() {
       <section>
         <h1 className="heading-1">Get to know me through my work.</h1>
         <article>
-          <h2 className="heading-3">You can find code examples and more projects on my</h2>
+          <h2 className="heading-3">You can find code examples and more projects on my:</h2>
           <div className={localStyles.gitLink} href="https://github.com/ElqBell">
             <img src={GitHub} alt="" />
             <a href="https://github.com/ElqBell" target="_blank" rel="noreferrer">GitHub</a>

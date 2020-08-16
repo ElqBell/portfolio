@@ -10,7 +10,7 @@ export default function Project1() {
         <section>
           <Link to=".." className={`button ${localStyles.linkBack}`}>Go back</Link>
           <p className={localStyles.projectNumber}>01.</p>
-          <h1 className="heading-1">Project name here</h1>
+          <h1 className="heading-1">Photography portfolio.</h1>
           <article>
             <h2 className="heading-3">About:</h2>
             <p>A photography portfolio website.</p>
