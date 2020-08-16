@@ -26,6 +26,10 @@ contact page maybe remove svg when small screen (from background)
 
 maybe remove svg-div from projects page or remove some svg parts from it
 
+fix svg colors
+
+individual project page make the whole picture clickable anchor like all project page
+
 ---------------------general---------------------
 
 ---------------------aws-------------------------

@@ -48,6 +48,14 @@ a.active-link {
   color: #c00e4d;
 }
 
+.displayOff {
+  display: none !important;
+}
+
+.scroll-lock {
+  overflow: hidden;
+}
+
 .page-content {
   width: 1200px;
   margin: 0 auto;
@@ -62,6 +70,7 @@ header a.logo {
   display: inline-block;
   padding: 0 20px;
   line-height: 100px;
+  font-size: 24px;
 }
 
 header nav {
@@ -80,6 +89,26 @@ header nav ul li {
   line-height: 100px;
 }
 
+header .mobile-navigation-bar {
+  display: none;
+  position: absolute;
+  right: 0;
+  margin: 32px 24px 0 0;
+  padding: 8px;
+  cursor: pointer;
+}
+
+header .mobile-navigation-bar div {
+  width: 22px;
+  height: 3px;
+  background-color: #c00e4d;
+  margin: 3px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
 @media only screen and (max-width: 1280px) {
   .page-content {
     width: calc(100% - 52px);
@@ -93,5 +122,32 @@ header nav ul li {
   main {
     padding: 0 28px;
   }
+}
+
+/* if screen width is 768px or smaller,
+   change header navigation to mobile design */
+@media only screen and (max-width: 520px) {
+  header nav {
+    float: none;
+    display: none;
+    margin: 20px auto 0;
+  }
+  header nav ul {
+    text-align: center;
+  }
+  header nav ul li {
+    display: block;
+    line-height: 48px;
+  }
+  header .mobile-navigation-visible {
+    display: block;
+  }
+  header .mobile-navigation-hidden {
+    display: none;
+  }
+  header .mobile-navigation-bar {
+    display: inline-block;
+  }
+  /* HEIGHT media queries for landscape navigation view*/
 }
 /*# sourceMappingURL=global.css.map */
