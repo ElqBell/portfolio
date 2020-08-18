@@ -139,4 +139,17 @@
     margin-right: 0;
   }
 }
+
+/*IE10+ CSS here*/
+@media only screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  header {
+    margin-bottom: 100px;
+  }
+}
+
+@media only screen and (-ms-high-contrast: none) and (max-width: 768px), only screen and (-ms-high-contrast: active) and (max-width: 768px) {
+  header {
+    margin-bottom: 70px;
+  }
+}
 /*# sourceMappingURL=about.module.css.map */

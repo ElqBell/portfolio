@@ -155,3 +155,10 @@
         }
     }
 }
+
+/*IE10+ CSS here*/
+@media only screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    header {
+        margin-bottom: 100px;
+    }
+}
