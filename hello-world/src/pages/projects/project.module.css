@@ -65,7 +65,7 @@
 .main-content aside {
   float: left;
   width: calc(60% - 26px);
-  margin: 93px 0 0 26px;
+  margin: 93px 0 42px 26px;
 }
 
 .main-content aside a {

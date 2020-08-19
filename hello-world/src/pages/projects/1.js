@@ -13,7 +13,7 @@ export default function Project1() {
           <h1 className="heading-1">Photography portfolio.</h1>
           <article>
             <h2 className="heading-3">About:</h2>
-            <p>A photography portfolio website.</p>
+            <p>A photography and videography portfolio website.</p>
           </article>
           <article>
             <h2 className="heading-3">Features:</h2>

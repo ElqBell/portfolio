@@ -1,13 +1,12 @@
 ---------------------general---------------------
 
-
 vertical github or something else on the side(some random elements)
 
 DMD animation like yugen
 
 projects make on hover project picture some kind of effect
 
-create favicon, seo meta tags, maybe manifest for phone app
+create favicon, seo meta tags, maybe manifest for phone app and sharing
 
 ---------------------general---------------------
 
