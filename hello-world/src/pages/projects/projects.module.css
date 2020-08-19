@@ -168,4 +168,11 @@
     padding-right: 24px;
   }
 }
+
+/*IE10+ CSS here*/
+@media only screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  header {
+    margin-bottom: 70px;
+  }
+}
 /*# sourceMappingURL=projects.module.css.map */

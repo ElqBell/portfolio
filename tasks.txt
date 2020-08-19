@@ -9,7 +9,7 @@ projects make on hover project picture some kind of effect
 
 create favicon, seo meta tags, maybe manifest for phone app
 
-write better project description
+add google analytics
 
 ---------------------general---------------------
 

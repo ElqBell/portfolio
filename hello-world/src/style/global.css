@@ -165,4 +165,9 @@ header .nav-menu:focus {
 }
 
 /*IE10+ CSS here*/
+@media only screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  :not(a), :not(input), :not(button), :not(.nav-menu) {
+    outline: none;
+  }
+}
 /*# sourceMappingURL=global.css.map */

@@ -172,7 +172,7 @@ header {
 
 /*IE10+ CSS here*/
 @media only screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-    // * {
-    //     outline: none;
-    // }
+    :not(a), :not(input), :not(button), :not(.nav-menu)  {
+        outline: none;
+    }
 }
