@@ -4,7 +4,6 @@ import Layout from "../../components/layout";
 import localStyles from "./about.module.css";
 
 export default function About() {
-  console.log(localStyles);
   return (
     <Layout mainClass={localStyles.mainContent}>
       <section>

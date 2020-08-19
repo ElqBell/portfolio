@@ -28,7 +28,7 @@ export default function Project3() {
         </section>
         <aside>
           <Link to="preview" className="button">
-            <p>View project</p>
+            <p>Visit project page</p>
             <img src={ProjectIMG3} alt="Project page overview"/>
           </Link>
         </aside>

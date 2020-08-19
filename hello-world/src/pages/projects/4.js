@@ -28,7 +28,7 @@ export default function Project4() {
         </section>
         <aside>
           <Link to="preview" className="button">
-            <p>View project</p>
+            <p>Visit project page</p>
             <img src={ProjectIMG4} alt="Project page overview"/>
           </Link>
         </aside>

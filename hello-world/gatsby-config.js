@@ -5,6 +5,12 @@
  */
 
 module.exports = {
-  /* Your site config here */
-  plugins: [],
+  plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-175798206-1",
+      },
+    },
+  ],
 }
