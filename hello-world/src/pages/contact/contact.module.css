@@ -3,6 +3,7 @@
 }
 
 .main-content section {
+  position: relative;
   float: left;
   width: 50%;
 }
@@ -65,10 +66,37 @@
   margin-top: 16px;
   width: 100%;
   cursor: pointer;
+  -webkit-transition: background-color 0.4s;
+  transition: background-color 0.4s;
+}
+
+.main-content section form button.alert-success {
+  background-color: #057538;
+}
+
+.main-content section form button.alert-error {
+  background-color: #c31919;
 }
 
 .main-content section form button:focus {
   outline: none;
+}
+
+.main-content section #alert-message {
+  display: none;
+  position: absolute;
+  width: 100%;
+  padding: 16px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  font-size: 18px;
+}
+
+.main-content section div.hidden {
+  display: none;
+  opacity: 0;
+  -webkit-transition: display 0s 1s, opacity 1s linear;
+  transition: display 0s 1s, opacity 1s linear;
 }
 
 .main-content aside {
@@ -148,7 +176,7 @@
   }
   .main-content aside {
     width: 100%;
-    margin-top: 56px;
+    margin-top: 36px;
     margin-bottom: 80px;
   }
   .main-content aside h2 {

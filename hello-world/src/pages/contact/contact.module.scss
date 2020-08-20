@@ -4,6 +4,7 @@
     margin-top: 100px;
 
     section {
+        position: relative;
         float: left;
         width: 50%;
 
@@ -66,11 +67,36 @@
                 margin-top: 16px;
                 width: 100%;
                 cursor: pointer;
+                transition: background-color 0.4s;
+
+                &.alert-success {
+                    background-color: $success;
+                }
+        
+                &.alert-error {
+                    background-color: $error;
+                }
 
                 &:focus {
                     outline: none;
                 }
             }
+        }
+
+        #alert-message {
+            display: none;
+            position: absolute;
+            width: 100%;
+            padding: 16px;
+            margin-top: 32px;
+            margin-bottom: 32px;
+            font-size: 18px;
+        }
+
+        div.hidden {
+            display: none;
+            opacity: 0;
+            transition: display 0s 1s, opacity 1s linear;
         }
     }
 
@@ -164,7 +190,7 @@
 
         aside {
             width: 100%;
-            margin-top: 56px;
+            margin-top: 36px;
             margin-bottom: 80px;
 
             h2 {

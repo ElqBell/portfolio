@@ -12,9 +12,6 @@ function submitToAPI(e) {
       email: document.getElementById("email").value,
       msg: document.getElementById("message").value
   };
-
-  e.target.reset();
-
   const options = {
     method: 'POST',
     body: JSON.stringify(data),
@@ -22,8 +19,33 @@ function submitToAPI(e) {
       'Content-Type': 'application/json; charset=utf-8',
     }
   };
-  
-  fetch(url, options).then(function(res){console.log(res)});
+
+  e.target.reset();
+
+  fetch(url, options).then(function(res){
+    if(res.status === 200) {
+      // success
+      const button = document.getElementById("email-submit-button");
+      button.textContent = "Your message was sent successfully";
+      button.classList.remove(localStyles.alertError);
+      button.classList.add(localStyles.alertSuccess);
+      setTimeout(function(){
+        button.classList.remove(localStyles.alertSuccess);
+        button.textContent = "Submit";
+      }, 2500);
+    }
+    else {
+      // error
+      const button = document.getElementById("email-submit-button");
+      button.textContent = "An error occurred. Please try again or use a different contact method";
+      button.classList.remove(localStyles.alertSuccess);
+      button.classList.add(localStyles.alertError);
+      setTimeout(function(){
+        button.classList.remove(localStyles.alertError);
+        button.textContent = "Submit";
+      }, 2500);
+    }
+  });
 }
 
 export default function Contact() {
@@ -43,7 +65,6 @@ export default function Contact() {
           </div>
           <label htmlFor="message">Message</label>
           <textarea type="text" id="message" name="message" required />
-
           <button type="submit" id="email-submit-button" className="button">Submit</button>
         </form>
       </section>
