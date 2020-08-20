@@ -62,6 +62,10 @@ a {
   margin: 0 auto;
 }
 
+a:focus {
+  outline: none;
+}
+
 header {
   height: 100px;
   margin: 0 auto;
@@ -76,7 +80,6 @@ header a.logo {
   padding: 0 20px;
   line-height: 100px;
   font-size: 24px;
-  outline: none;
 }
 
 header nav {

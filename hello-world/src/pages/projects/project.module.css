@@ -11,6 +11,10 @@
   margin-left: 28px;
 }
 
+.main-content .link-back:focus {
+  outline: none;
+}
+
 .main-content section {
   float: left;
   width: 40%;

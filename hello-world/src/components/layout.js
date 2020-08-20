@@ -29,7 +29,7 @@ export default function Layout(props) {
           <meta property="og:locale" content="en_US" />
           <meta property="og:url" content="https://www.deimantasbutenas.lt/" />
           <link rel="canonical" href="https://www.deimantasbutenas.lt/" />
-          <title>DMD - Home</title>
+          <title>{`DMD - Home`}</title>
         </Helmet>
         <Header/>
         <main className={props.mainClass}>{props.children}</main>

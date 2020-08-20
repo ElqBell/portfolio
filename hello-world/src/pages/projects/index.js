@@ -11,7 +11,7 @@ export default function Projects() {
   return (
     <Layout mainClass={localStyles.mainContent}>
       <Helmet>
-        <title>DMD - Projects</title>
+        <title>{`DMD - Projects`}</title>
       </Helmet>
       <section>
         <h1 className="heading-1">Get to know me through my work.</h1>

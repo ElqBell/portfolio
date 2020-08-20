@@ -30,7 +30,7 @@ export default function Contact() {
   return (
     <Layout mainClass={localStyles.mainContent}>
        <Helmet>
-        <title>DMD - Contact</title>
+        <title>{`DMD - Contact`}</title>
       </Helmet>
       <section>
         <h1 className="heading-1">Send me a message.</h1>
