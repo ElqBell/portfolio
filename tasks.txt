@@ -6,6 +6,8 @@ DMD animation like yugen
 
 show message if email sent successfully but not alert
 
+get out of email sandbox
+
 ---------------------general---------------------
 
 ---------------------aws-------------------------
