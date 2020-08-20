@@ -37,7 +37,7 @@ function submitToAPI(e) {
       setTimeout(function(){
         button.classList.remove(localStyles.alertSuccess);
         button.textContent = "Submit";
-      }, 2500);
+      }, 3000);
     }
     else {
       // error
@@ -47,7 +47,7 @@ function submitToAPI(e) {
       setTimeout(function(){
         button.classList.remove(localStyles.alertError);
         button.textContent = "Submit";
-      }, 2500);
+      }, 3000);
     }
   });
 }
