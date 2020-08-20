@@ -32,15 +32,15 @@ export default function Projects() {
             <p>Learn more</p>
             <img src={ProjectIMG1} alt="First project page overview"/>
           </Link>
-          <Link className={localStyles.comingSoon} to="#">
+          <Link className={localStyles.comingSoon} >
             <p>Learn more</p>
             <img src={ComingSoon} alt="Second project page overview"/>
           </Link>
-          <Link className={localStyles.comingSoon} to="#">
+          <Link className={localStyles.comingSoon} >
             <p>Learn more</p>
             <img src={ComingSoon} alt="Third project page overview"/>
           </Link>
-          <Link className={localStyles.comingSoon} to="#">
+          <Link className={localStyles.comingSoon} >
             <p>Learn more</p>
             <img src={ComingSoon} alt="Fourth project page overview"/>
           </Link> 
