@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import Layout from "../../components/layout";
 import { SVGEmail, SVGEmailFallback } from "../../images";
 import localStyles from "./contact.module.css";
@@ -28,6 +29,9 @@ function submitToAPI(e) {
 export default function Contact() {
   return (
     <Layout mainClass={localStyles.mainContent}>
+       <Helmet>
+        <title>DMD - Contact</title>
+      </Helmet>
       <section>
         <h1 className="heading-1">Send me a message.</h1>
         <form id="contact-form" onSubmit={submitToAPI}>

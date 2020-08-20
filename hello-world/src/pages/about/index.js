@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { Link } from "gatsby";
 import Layout from "../../components/layout";
 import localStyles from "./about.module.css";
@@ -6,6 +7,9 @@ import localStyles from "./about.module.css";
 export default function About() {
   return (
     <Layout mainClass={localStyles.mainContent}>
+      <Helmet>
+        <title>DMD - About</title>
+      </Helmet>
       <section>
         <h1 className="heading-1">Hello, my name is Deimantas Butėnas.</h1>
         <h3 className="heading-3">I'm a passionate frontend developer and designer with high attention to detail and user experience. Currently I'm studying software engineering at Kaunas University of Technology.</h3>

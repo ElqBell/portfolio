@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { Link } from "gatsby";
 import Layout from "../../components/layout";
 import { GitHub, SVGBoy, SVGBoyFallback, ProjectIMG1,
@@ -9,6 +10,9 @@ import localStyles from "./projects.module.css";
 export default function Projects() {
   return (
     <Layout mainClass={localStyles.mainContent}>
+      <Helmet>
+        <title>DMD - Projects</title>
+      </Helmet>
       <section>
         <h1 className="heading-1">Get to know me through my work.</h1>
         <article>
@@ -28,15 +32,15 @@ export default function Projects() {
             <p>Learn more</p>
             <img src={ProjectIMG1} alt="First project page overview"/>
           </Link>
-          <Link className={localStyles.comingSoon}>
+          <Link className={localStyles.comingSoon} to="#">
             <p>Learn more</p>
             <img src={ComingSoon} alt="Second project page overview"/>
           </Link>
-          <Link className={localStyles.comingSoon}>
+          <Link className={localStyles.comingSoon} to="#">
             <p>Learn more</p>
             <img src={ComingSoon} alt="Third project page overview"/>
           </Link>
-          <Link className={localStyles.comingSoon}>
+          <Link className={localStyles.comingSoon} to="#">
             <p>Learn more</p>
             <img src={ComingSoon} alt="Fourth project page overview"/>
           </Link> 

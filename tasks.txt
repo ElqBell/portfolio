@@ -4,9 +4,7 @@ vertical github or something else on the side(some random elements)
 
 DMD animation like yugen
 
-projects make on hover project picture some kind of effect
-
-create favicon, seo meta tags, maybe manifest for phone app and sharing
+show message if email sent successfully but not alert
 
 ---------------------general---------------------
 
@@ -15,7 +13,7 @@ create favicon, seo meta tags, maybe manifest for phone app and sharing
 ---------------------aws-------------------------
 
 ---------------------mobile----------------------
-test landscape, portrait different browsers, ios, android
+test landscape, portrait, different browsers, ios, android
 ---------------------mobile----------------------
 
 ---------------------ie--------------------------

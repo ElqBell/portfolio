@@ -6,7 +6,7 @@ import localStyles from "./project.module.css";
 
 export default function Project2() {
   return (
-    <ProjectLayout mainClass={localStyles.mainContent}>
+    <ProjectLayout mainClass={localStyles.mainContent} projectNum={2} >
         <section>
           <Link to=".." className={`button ${localStyles.linkBack}`}>Go back</Link>
           <p className={localStyles.projectNumber}>02.</p>
