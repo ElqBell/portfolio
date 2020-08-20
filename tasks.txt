@@ -1,9 +1,5 @@
 ---------------------general---------------------
 
-vertical github or something else on the side(some random elements)
-
-DMD animation like yugen
-
 show message if email sent successfully but not alert
 
 get out of email sandbox
@@ -20,6 +16,3 @@ test landscape, portrait, different browsers, ios, android
 
 ---------------------ie--------------------------
 ---------------------ie--------------------------
-
-
-with a strong sense of ownership and attention to detail

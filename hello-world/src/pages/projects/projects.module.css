@@ -103,9 +103,6 @@
   .main-content section article div.git-link img {
     margin-right: 12px;
   }
-  .main-content section article div.git-link a:focus {
-    outline: none;
-  }
   .main-content section article .svg-div {
     display: none;
   }
