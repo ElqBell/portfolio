@@ -1,6 +1,5 @@
 export const ComingSoon = require('./coming-soon.png');
 export const GitHub = require('./icons/github.png');
-export const MetaOgIMG = require('./meta-og-image.png');
 
 export const SVGEmail = require('./svg/email-send-letter.svg');
 export const SVGBoyGirl = require('./svg/boy-standing-girl-sitting-on-laptop.svg');
