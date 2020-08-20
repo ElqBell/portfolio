@@ -69,6 +69,10 @@
                 cursor: pointer;
                 transition: background-color 0.4s;
 
+                &.alert-waiting {
+                    background-color: $waiting;
+                }
+
                 &.alert-success {
                     background-color: $success;
                 }
@@ -81,16 +85,6 @@
                     outline: none;
                 }
             }
-        }
-
-        #alert-message {
-            display: none;
-            position: absolute;
-            width: 100%;
-            padding: 16px;
-            margin-top: 32px;
-            margin-bottom: 32px;
-            font-size: 18px;
         }
 
         div.hidden {

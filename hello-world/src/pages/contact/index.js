@@ -22,12 +22,17 @@ function submitToAPI(e) {
 
   e.target.reset();
 
+  // style to show while sending the message
+  const button = document.getElementById("email-submit-button");
+  button.textContent = "Sending the message";
+  button.classList.remove(localStyles.alertSuccess, localStyles.alertError);
+  button.classList.add(localStyles.alertWaiting);
+
   fetch(url, options).then(function(res){
     if(res.status === 200) {
       // success
-      const button = document.getElementById("email-submit-button");
-      button.textContent = "Your message was sent successfully";
-      button.classList.remove(localStyles.alertError);
+      button.textContent = "Message sent";
+      button.classList.remove(localStyles.alertError, localStyles.alertWaiting);
       button.classList.add(localStyles.alertSuccess);
       setTimeout(function(){
         button.classList.remove(localStyles.alertSuccess);
@@ -36,9 +41,8 @@ function submitToAPI(e) {
     }
     else {
       // error
-      const button = document.getElementById("email-submit-button");
-      button.textContent = "An error occurred. Please try again or use a different contact method";
-      button.classList.remove(localStyles.alertSuccess);
+      button.textContent = "An error occurred";
+      button.classList.remove(localStyles.alertSuccess, localStyles.alertWaiting);
       button.classList.add(localStyles.alertError);
       setTimeout(function(){
         button.classList.remove(localStyles.alertError);
