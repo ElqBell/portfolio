@@ -1,8 +1,6 @@
 ---------------------general---------------------
 
-show message if email sent successfully but not alert
-
-get out of email sandbox
+add "go back to home site" button on projects' websites
 
 ---------------------general---------------------
 

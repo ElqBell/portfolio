@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Helmet } from "react-helmet"
+import { Helmet } from "react-helmet";
 import Header from "./header";
 import { turnNavigationOff } from "../scripts/toggle-mobile-navigation";
 import "../style/global.css";
