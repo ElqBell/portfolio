@@ -2,6 +2,13 @@
 
 add "go back to home site" button on projects' websites
 
+phone make menu font bold
+
+when menu is on and resized to screen size where menu shouldn't be available,
+execute script of turning menu off and turning page-content on
+
+turn on submit button outline
+
 ---------------------general---------------------
 
 ---------------------aws-------------------------
@@ -14,3 +21,15 @@ test landscape, portrait, different browsers, ios, android
 
 ---------------------ie--------------------------
 ---------------------ie--------------------------
+
+project ideas:
+
+country old website
+
+image compressor website
+
+movies kayak website
+
+bodybuilding bible website
+
+face/emotion tracking website with camera
