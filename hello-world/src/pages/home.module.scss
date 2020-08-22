@@ -74,7 +74,9 @@
 
 @media only screen and (max-width: 480px) {
     .main-content section article a {
-        margin: 24px calc((100% - 232px) / 2) 0;
+        //margin: 24px calc((100% - 232px) / 2) 0;
+        margin: 24px 0 0 -16px;
+        width: 100%;
     }
 }
 

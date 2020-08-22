@@ -7,7 +7,7 @@ function turnNavigationOn(pageContent) {
     nav.classList.add("mobile-navigation-visible");
 }
 
-export function turnNavigationOff(pageContent) {
+function turnNavigationOff(pageContent) {
     const nav = document.getElementsByTagName("nav")[0];
     const navMenu = document.getElementsByClassName("nav-menu")[0];
     navMenu.classList.remove("active-link");
