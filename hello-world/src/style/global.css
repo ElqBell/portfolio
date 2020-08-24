@@ -103,6 +103,7 @@ header .nav-menu {
   right: 0;
   margin: 40px 32px 0 0;
   cursor: pointer;
+  font-weight: bold;
 }
 
 header .nav-menu div {
@@ -130,13 +131,34 @@ header .nav-menu:focus {
   .page-content {
     width: 100%;
   }
+  .page-content header.nav-on nav {
+    float: none;
+    display: none;
+    margin: 8px auto 0;
+  }
+  .page-content header.nav-on nav ul {
+    text-align: center;
+  }
+  .page-content header.nav-on nav ul li {
+    display: block;
+    line-height: 48px;
+  }
+  .page-content header.nav-on .mobile-navigation-visible {
+    display: block;
+  }
+  .page-content header.nav-on .mobile-navigation-hidden {
+    display: none;
+  }
+  .page-content header.nav-on .nav-menu {
+    display: inline-block;
+  }
   main {
     padding: 0 28px;
   }
 }
 
 @media only screen and (min-width: 521px) {
-  header .nav-menu {
+  header.nav-off .nav-menu {
     display: none;
   }
 }
@@ -144,25 +166,25 @@ header .nav-menu:focus {
 /* if screen width is 520px or smaller,
    change header navigation to mobile design */
 @media only screen and (max-width: 520px) {
-  header nav {
+  header.nav-off nav {
     float: none;
     display: none;
     margin: 8px auto 0;
   }
-  header nav ul {
+  header.nav-off nav ul {
     text-align: center;
   }
-  header nav ul li {
+  header.nav-off nav ul li {
     display: block;
     line-height: 48px;
   }
-  header .mobile-navigation-visible {
+  header.nav-off .mobile-navigation-visible {
     display: block;
   }
-  header .mobile-navigation-hidden {
+  header.nav-off .mobile-navigation-hidden {
     display: none;
   }
-  header .nav-menu {
+  header.nav-off .nav-menu {
     display: inline-block;
   }
 }

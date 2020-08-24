@@ -103,6 +103,7 @@ header {
         right: 0;
         margin: 40px 32px 0 0;
         cursor: pointer;
+        font-weight: bold;
 
         div {
             width: 22px;
@@ -127,6 +128,35 @@ header {
 @media only screen and (max-width: 768px) {
     .page-content {
         width: 100%;
+
+        header.nav-on {
+            nav {
+                float: none;
+                display: none;
+                margin: 8px auto 0;
+    
+                ul {
+                    text-align: center;
+        
+                    li {
+                        display: block;
+                        line-height: 48px;
+                    }
+                }
+            }
+    
+            .mobile-navigation-visible {
+                display: block;
+            }
+    
+            .mobile-navigation-hidden {
+                display: none;
+            }
+    
+            .nav-menu {
+                display: inline-block;
+            }
+        }
     }
 
     main {
@@ -135,7 +165,7 @@ header {
 }
 
 @media only screen and (min-width: 521px) {
-    header .nav-menu {
+    header.nav-off .nav-menu {
         display: none;
     }
 }
@@ -143,7 +173,7 @@ header {
 /* if screen width is 520px or smaller,
    change header navigation to mobile design */
 @media only screen and (max-width: 520px) {
-    header {
+    header.nav-off {
         nav {
             float: none;
             display: none;

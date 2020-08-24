@@ -8,7 +8,7 @@ export default function Header() {
     };
 
     return (
-        <header>
+        <header className="nav-off">
             <Link to="/" className="logo">
                 <span className="pink-text">D</span>MD
             </Link>

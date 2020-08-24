@@ -8,7 +8,7 @@ export default function Layout(props) {
   useEffect(() => {
     const handleResize = () => {
       const pageContent = document.getElementsByTagName("main")[0];
-        if(window.screen.availWidth > 520 && pageContent.classList.contains("displayOff"))
+        if(window.screen.availWidth > 768 && pageContent.classList.contains("displayOff"))
           toggleMobileNavigation();
     };
 
