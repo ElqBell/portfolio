@@ -48,6 +48,8 @@
         }
 
         &:last-of-type {
+            padding-bottom: 80px;
+            
             a, h2 {
                 display: inline-block;
                 margin-right: 32px;
@@ -84,8 +86,6 @@
             }
 
             &:last-of-type {
-                padding-bottom: 80px;
-
                 a, h2 {
                     margin-right: 16px;
                 }

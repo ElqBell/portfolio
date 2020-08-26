@@ -20,7 +20,5 @@ image compressor website
 
 bodybuilding bible website
 
-face/emotion tracking website with camera
-
 
 npm install --save gatsby-plugin-manifest gatsby-plugin-google-analytics gatsby-plugin-react-helmet react-helmet

@@ -47,6 +47,10 @@
   margin-left: 12px;
 }
 
+.main-content section article a {
+  color: #cf1a5a;
+}
+
 .main-content section article h2 {
   margin-bottom: 12px;
 }

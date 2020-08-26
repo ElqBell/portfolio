@@ -43,6 +43,10 @@
   color: #c8c8c8;
 }
 
+.main-content section:last-of-type {
+  padding-bottom: 80px;
+}
+
 .main-content section:last-of-type a, .main-content section:last-of-type h2 {
   display: inline-block;
   margin-right: 32px;
@@ -69,9 +73,6 @@
   }
   .main-content section:first-of-type h3 {
     width: 90%;
-  }
-  .main-content section:last-of-type {
-    padding-bottom: 80px;
   }
   .main-content section:last-of-type a, .main-content section:last-of-type h2 {
     margin-right: 16px;
