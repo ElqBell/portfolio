@@ -31,6 +31,7 @@ export default function Project1() {
             <ul>
               <li>Amazon Web Services(AWS)</li>
               <li>NodeJS with AWS Lambda</li>
+              <li>NodeJS image processing module 'sharp'</li>
               <li>JavaScript</li>
               <li>SCSS</li>
               <li>HTML</li>

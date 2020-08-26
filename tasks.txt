@@ -9,7 +9,6 @@ add "go back to home site" button on projects' websites
 ---------------------aws-------------------------
 
 ---------------------mobile----------------------
-test landscape, portrait, different browsers, ios, android
 ---------------------mobile----------------------
 
 ---------------------ie--------------------------
@@ -17,12 +16,11 @@ test landscape, portrait, different browsers, ios, android
 
 project ideas:
 
-country old website
-
 image compressor website
-
-movies kayak website
 
 bodybuilding bible website
 
 face/emotion tracking website with camera
+
+
+npm install --save gatsby-plugin-manifest gatsby-plugin-google-analytics gatsby-plugin-react-helmet react-helmet
