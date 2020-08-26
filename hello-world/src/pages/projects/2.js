@@ -19,6 +19,7 @@ export default function Project2() {
             <h2 className="heading-3">Features:</h2>
             <ul>
               <li>Data fetching from themoviedb.org</li>
+              <li>Debounce function for fetching data</li>
               <li>Simple and intuitive design</li>
               <li>Fast and efficient code</li>
               <li>Movie sorting by popularity</li>
