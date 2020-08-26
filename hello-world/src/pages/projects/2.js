@@ -10,19 +10,25 @@ export default function Project2() {
         <section>
           <Link to=".." className={`button ${localStyles.linkBack}`}>Go back</Link>
           <p className={localStyles.projectNumber}>02.</p>
-          <h1 className="heading-1">Project name.</h1>
+          <h1 className="heading-1">Movie database.</h1>
           <article>
             <h2 className="heading-3">About:</h2>
-            <p>Description.</p>
+            <p>Movie database website where you can search for any movies existing and read information about them.</p>
           </article>
           <article>
             <h2 className="heading-3">Features:</h2>
             <ul>
+              <li>Data fetching from themoviedb.org</li>
+              <li>Simple and intuitive design</li>
+              <li>Fast and efficient code</li>
             </ul>
           </article>
           <article>
             <h2 className="heading-3">Tools used:</h2>
             <ul>
+              <li>ReactJS with GatsbyJS</li>
+              <li>SCSS</li>
+              <li>HTML</li>
             </ul>
           </article>
         </section>
