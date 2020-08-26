@@ -13,7 +13,7 @@ export default function Project2() {
           <h1 className="heading-1">Movie database.</h1>
           <article>
             <h2 className="heading-3">About:</h2>
-            <p>Movie database website where you can search for any movies existing and read information about them.</p>
+            <p>Movie database website where you can search for movies and read information about them.</p>
           </article>
           <article>
             <h2 className="heading-3">Features:</h2>
@@ -21,6 +21,7 @@ export default function Project2() {
               <li>Data fetching from themoviedb.org</li>
               <li>Simple and intuitive design</li>
               <li>Fast and efficient code</li>
+              <li>Movie sorting by popularity</li>
             </ul>
           </article>
           <article>
