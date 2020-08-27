@@ -36,7 +36,7 @@ export default function Projects() {
             <p>Learn more</p>
             <img src={ProjectIMG2} alt="Second project page overview"/>
           </Link>
-          <Link >
+          <Link className={localStyles.comingSoon} >
             <p>Learn more</p>
             <img src={ComingSoon} alt="Third project page overview"/>
           </Link>
