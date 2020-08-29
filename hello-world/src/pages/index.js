@@ -12,8 +12,8 @@ export default function Home() {
           <article>
             <h2 className="heading-3">Frontend developer</h2>
             <h2 className="heading-3">Deimantas Butėnas</h2>
-            <Link to="projects/" className="button">See my projects</Link>
-            <Link to="contact/" className="button">Contact me</Link>
+            <Link to="/projects" className="button">See my projects</Link>
+            <Link to="/contact" className="button">Contact me</Link>
           </article>
         </section>
         <aside>
