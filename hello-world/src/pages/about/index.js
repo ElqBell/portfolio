@@ -35,8 +35,8 @@ export default function About() {
       </section>
       <section>
         <h2 className="heading-2">Interested?</h2>
-        <Link to="/projects" className="button">See my projects</Link>
-        <Link to="/contact" className="button">Contact me</Link>
+        <Link to="projects/" className="button">See my projects</Link>
+        <Link to="contact/" className="button">Contact me</Link>
       </section>
     </Layout>
   );

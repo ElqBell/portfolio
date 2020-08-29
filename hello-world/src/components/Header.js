@@ -23,17 +23,17 @@ export default function Header() {
                         </Link>
                     </li>
                     <li>
-                        <Link to="/projects" activeClassName="active-link" partiallyActive={true}>
+                        <Link to="projects/" activeClassName="active-link" partiallyActive={true}>
                             <span className="pink-text">P</span>ROJECTS
                         </Link>
                     </li>
                     <li>
-                        <Link to="/about" activeClassName="active-link">
+                        <Link to="about/" activeClassName="active-link">
                             <span className="pink-text">A</span>BOUT
                         </Link>
                     </li>
                     <li>
-                        <Link to="/contact" activeClassName="active-link">
+                        <Link to="contact/" activeClassName="active-link">
                             <span className="pink-text">C</span>ONTACT
                         </Link>
                     </li>

@@ -35,7 +35,7 @@ export default function Project2() {
           </article>
         </section>
         <aside>
-          <Link to="preview" className="button">
+          <Link to="preview/" className="button">
             <p>Visit project page</p>
             <img src={ProjectIMG2} alt="Project page overview"/>
           </Link>
