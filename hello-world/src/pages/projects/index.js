@@ -28,11 +28,11 @@ export default function Projects() {
       </section>
       <aside>
         <div>
-          <Link to="/projects/1">
+          <Link to="1">
             <p>Learn more</p>
             <img src={ProjectIMG1} alt="First project page overview"/>
           </Link>
-          <Link to="/projects/2">
+          <Link to="2">
             <p>Learn more</p>
             <img src={ProjectIMG2} alt="Second project page overview"/>
           </Link>
