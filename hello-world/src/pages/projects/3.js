@@ -10,19 +10,24 @@ export default function Project3() {
         <section>
           <Link to=".." className={`button ${localStyles.linkBack}`}>Go back</Link>
           <p className={localStyles.projectNumber}>03.</p>
-          <h1 className="heading-1">Project name.</h1>
+          <h1 className="heading-1">Zyzz Bodybuilding.</h1>
           <article>
             <h2 className="heading-3">About:</h2>
-            <p>Description.</p>
+            <p>Азиз Сергеевич Шавершян or more commonly known as Zyzz was a bodybuilder that inspired generations. This project is my tribute to his life.</p>
           </article>
           <article>
             <h2 className="heading-3">Features:</h2>
             <ul>
+              <li>Real pictures of the one and only God</li>
+              <li>Animations with Intersection Observer API</li>
             </ul>
           </article>
           <article>
             <h2 className="heading-3">Tools used:</h2>
             <ul>
+              <li>ReactJS with GatsbyJS</li>
+              <li>SCSS</li>
+              <li>HTML</li>
             </ul>
           </article>
         </section>
