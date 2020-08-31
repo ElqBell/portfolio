@@ -13,6 +13,11 @@
     }
 }
 
+html {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
 html, body {
     background-color: $background-color;
 }
