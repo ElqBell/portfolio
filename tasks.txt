@@ -1,7 +1,5 @@
 ---------------------general---------------------
 
-add "go back to home site" button on projects' websites
-
 ---------------------general---------------------
 
 ---------------------aws-------------------------
@@ -17,8 +15,5 @@ add "go back to home site" button on projects' websites
 project ideas:
 
 image compressor website
-
-bodybuilding bible website
-
 
 npm install --save gatsby-plugin-manifest gatsby-plugin-google-analytics gatsby-plugin-react-helmet react-helmet

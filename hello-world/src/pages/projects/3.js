@@ -19,6 +19,7 @@ export default function Project3() {
             <h2 className="heading-3">Features:</h2>
             <ul>
               <li>Real pictures of the one and only God</li>
+              <li>Image lazyloading</li>
               <li>Animations with Intersection Observer API</li>
             </ul>
           </article>
