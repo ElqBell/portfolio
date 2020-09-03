@@ -1,5 +1,4 @@
 ---------------------general---------------------
-make different sources for project images for different screens
 ---------------------general---------------------
 
 ---------------------aws-------------------------

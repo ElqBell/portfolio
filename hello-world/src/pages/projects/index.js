@@ -2,8 +2,8 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "gatsby";
 import Layout from "../../components/layout";
-import { GitHub, SVGBoy, SVGBoyFallback, ProjectIMG1,
-         ProjectIMG2, ProjectIMG3, ProjectIMG4, ComingSoon
+import { GitHub, ComingSoon, SVGBoy, SVGBoyFallback, ProjectIMG1,
+         ProjectIMG2, ProjectIMG3, ProjectIMG4
        } from "../../images";
 import localStyles from "./projects.module.css";
 
@@ -42,7 +42,7 @@ export default function Projects() {
           </Link>
           <Link className={localStyles.comingSoon} >
             <p>Learn more</p>
-            <img src={ComingSoon} alt="Fourth project page overview"/>
+            <img src={ComingSoon} alt="Project coming soon"/>
           </Link> 
         </div>
       </aside>
