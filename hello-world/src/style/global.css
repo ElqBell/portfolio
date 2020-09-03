@@ -198,5 +198,8 @@ header .nav-menu:focus {
   :not(a), :not(input), :not(button), :not(.nav-menu) {
     outline: none;
   }
+  .page-content main {
+    padding-top: 30px;
+  }
 }
 /*# sourceMappingURL=global.css.map */

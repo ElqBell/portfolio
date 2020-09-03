@@ -13,7 +13,7 @@ export default function Layout(props) {
     };
 
     window.addEventListener('resize', handleResize);
-  });
+  }, []);
 
   return (
     <div className="page-content">
