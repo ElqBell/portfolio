@@ -18,7 +18,7 @@ export default function Project2() {
           <article>
             <h2 className="heading-3">Features:</h2>
             <ul>
-              <li>Data fetching from themoviedb.org</li>
+              <li>Data fetching from <a href="https://www.themoviedb.org" target="_blank" rel="noreferrer">themoviedb.org</a></li>
               <li>Debounce function for fetching data</li>
               <li>Simple and intuitive design</li>
               <li>Fast and efficient code</li>

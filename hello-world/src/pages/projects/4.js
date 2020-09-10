@@ -10,19 +10,18 @@ export default function Project4() {
         <section>
           <Link to=".." className={`button ${localStyles.linkBack}`}>Go back</Link>
           <p className={localStyles.projectNumber}>04.</p>
-          <h1 className="heading-1">Project name.</h1>
+          <h1 className="heading-1">Japanese Musicians.</h1>
           <article>
             <h2 className="heading-3">About:</h2>
-            <p>Description.</p>
-          </article>
-          <article>
-            <h2 className="heading-3">Features:</h2>
-            <ul>
-            </ul>
+            <p>A website showcasing a few music artists and bands from Japan. With this project I mainly focused on design.</p>
           </article>
           <article>
             <h2 className="heading-3">Tools used:</h2>
             <ul>
+              <li>ReactJS with GatsbyJS</li>
+              <li>SCSS</li>
+              <li>HTML</li>
+              <li><a href="http://mypaint.org" target="_blank" rel="noreferrer" >MyPaint</a> for image editing</li>
             </ul>
           </article>
         </section>

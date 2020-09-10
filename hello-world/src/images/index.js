@@ -12,4 +12,4 @@ export const SVGBoyFallback = require('./svgFallback/boy-sitting-tree-laptop-gra
 export const ProjectIMG1 = require('./projects/1.png');
 export const ProjectIMG2 = require('./projects/2.png');
 export const ProjectIMG3 = require('./projects/3.jpg');
-export const ProjectIMG4 = require('./projects/4.png');
+export const ProjectIMG4 = require('./projects/4.jpg');

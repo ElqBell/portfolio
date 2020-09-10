@@ -13,7 +13,7 @@ export default function Project3() {
           <h1 className="heading-1">Zyzz Bodybuilding.</h1>
           <article>
             <h2 className="heading-3">About:</h2>
-            <p>Азиз Сергеевич Шавершян or more commonly known as Zyzz was a bodybuilder that inspired generations. This project is my tribute to his life.</p>
+            <p>Азиз Сергеевич Шавершян or more commonly known as Zyzz was a bodybuilder that inspired millions. This project is my tribute to his life.</p>
           </article>
           <article>
             <h2 className="heading-3">Features:</h2>
