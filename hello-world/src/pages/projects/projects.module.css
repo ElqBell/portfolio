@@ -60,7 +60,7 @@
 }
 
 .main-content aside div a {
-  background-color: #c00e4d;
+  background-color: #282834;
   display: inline-block;
   width: 355px;
   height: 272px;
@@ -73,6 +73,7 @@
 }
 
 .main-content aside div a p {
+  background-color: #c00e4d;
   line-height: 50px;
   text-align: center;
 }

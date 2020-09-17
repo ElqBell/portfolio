@@ -61,7 +61,7 @@
 
         div {
             a {
-                background-color: $pink;
+                background-color: $background-color;
                 display: inline-block;
                 width: 355px;
                 height: 272px;
@@ -73,6 +73,7 @@
                 }
 
                 p {
+                    background-color: $pink;
                     line-height: 50px;
                     text-align: center;
                 }

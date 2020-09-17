@@ -12,14 +12,14 @@ export default function About() {
       </Helmet>
       <section>
         <h1 className="heading-1">Hello, my name is Deimantas Butėnas.</h1>
-        <h3 className="heading-3">I'm a passionate frontend developer with high attention to detail and user experience. Currently I'm studying Software Systems (field of Software Engineering) at Kaunas University of Technology.</h3>
+        <h3 className="heading-3">I'm a passionate frontend developer with high attention to detail and user experience. Currently I'm studying Software Systems at Kaunas University of Technology.</h3>
         <div className={localStyles.articleWrapper}>
           <article>
             <h2 className="heading-2">Tools I use:</h2>
             <ul>
               <li>ReactJS</li>
               <li>JavaScript</li>
-              <li>SCSS(CSS)</li>
+              <li>SCSS, CSS</li>
               <li>HTML</li>
               <li>Git</li>
             </ul>

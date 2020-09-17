@@ -16,8 +16,11 @@ maybe change whole theme to rgb(68, 190, 140);
 
 project ideas:
 
-the game of life
+1 the game of life
 
-image compressor website
+2 image compressor website
+
+3 hugme/comfortme/curemydepression
+  hugme, ineedahug or something like that. similar to 'make everything alright' website
 
 npm install --save gatsby-plugin-manifest gatsby-plugin-google-analytics gatsby-plugin-react-helmet react-helmet

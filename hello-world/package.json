@@ -21,7 +21,8 @@
     "gatsby-plugin-react-helmet": "^3.3.10",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "vanilla-lazyload": "^17.1.2"
   },
   "devDependencies": {
     "prettier": "2.0.5"
