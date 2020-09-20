@@ -7,6 +7,15 @@
   margin-top: 36px;
 }
 
+@media only screen and (min-width: 1921px) {
+  .main-content h1 {
+    font-size: 56px;
+  }
+  .main-content a {
+    margin-top: 56px;
+  }
+}
+
 /*IE10+ CSS here*/
 @media only screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   header {

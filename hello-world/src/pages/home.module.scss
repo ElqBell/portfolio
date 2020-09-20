@@ -44,6 +44,37 @@
     }
 }
 
+@media only screen and (min-width: 1921px) {
+    .main-content section {
+        padding-bottom: 200px;
+
+        h1 {
+            width: 700px;
+            font-size: 56px;
+            margin-bottom: 36px;
+        }
+
+        article {
+            h2 {
+                font-size: 32px;
+                margin: 10px 0;
+
+                &:last-of-type {
+                    font-size: 28px;
+                }
+            }
+
+            a {
+                margin-top: 80px;
+
+                &:nth-child(3) {
+                    margin-right: 24px;
+                }
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .main-content {
         margin-top: 70px;

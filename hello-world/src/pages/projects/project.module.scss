@@ -78,12 +78,67 @@
 
         a {
             width: 100%;
-            height: 56.25%; // 16:9 aspect ratio
+            height: 56.25%;
 
             img {
                 width: 100%;
                 vertical-align: bottom;
             }
+        }
+    }
+}
+
+@media only screen and (min-width: 1921px) {
+    .main-content {
+        .link-back {
+            margin-top: -80px;
+            font-size: 28px;
+            width: 250px;
+            height: 60px;
+            line-height: 60px;
+        }
+    
+        section {
+            padding-bottom: 200px;
+    
+            .project-number {
+                margin-right: 8px;
+                font-size: 32px;
+            }
+    
+            h1 {
+                font-size: 52px;
+            }
+    
+            article {
+                margin-top: 24px;
+    
+                &:first-of-type {
+                    margin-top: 52px;
+                    
+                    p {
+                        font-size: 22px;
+                    }
+                }
+    
+                h2 {
+                    font-size: 30px;
+                    margin-bottom: 16px;
+                }
+    
+                ul {
+                    font-size: 22px;
+    
+                    li {
+                        margin-bottom: 8px;
+                    }
+                }
+            }
+        }
+    
+        aside {
+            width: calc(60% - 60px);
+            margin: 93px 0 42px 60px;
         }
     }
 }

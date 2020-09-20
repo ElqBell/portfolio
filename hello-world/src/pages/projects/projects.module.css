@@ -83,6 +83,64 @@
   width: 100%;
 }
 
+@media only screen and (min-width: 1921px) {
+  .main-content {
+    width: 85vw;
+  }
+  .main-content section {
+    width: 30%;
+    padding-bottom: 200px;
+    margin-top: 28px;
+  }
+  .main-content section h1 {
+    font-size: 56px;
+  }
+  .main-content section article {
+    margin-top: 32px;
+  }
+  .main-content section article h2 {
+    width: 100%;
+    font-size: 36px;
+    margin-bottom: 32px;
+  }
+  .main-content section article div.git-link {
+    height: 80px;
+  }
+  .main-content section article div.git-link img {
+    width: 80px;
+    margin-right: 24px;
+  }
+  .main-content section article div.git-link a {
+    line-height: 80px;
+    font-size: 36px;
+  }
+  .main-content section article .svg-div {
+    width: 500px;
+    height: 380px;
+    margin-top: 32px;
+  }
+  .main-content section article .svg-div img {
+    width: 500px;
+    margin-top: 14px;
+  }
+  .main-content aside {
+    width: calc(70% - 60px);
+    margin-left: 60px;
+  }
+  .main-content aside div a {
+    width: 500px;
+    height: 325px;
+    margin: 28px 32px 0 0;
+  }
+  .main-content aside div a p {
+    line-height: 70px;
+    font-size: 24px;
+  }
+  .main-content aside div a img {
+    height: 325px;
+  }
+}
+
 @media only screen and (max-width: 1280px) {
   .main-content section {
     width: 100%;

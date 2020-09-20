@@ -124,6 +124,63 @@
   max-width: 50%;
 }
 
+@media only screen and (min-width: 1921px) {
+  .main-content section {
+    padding-bottom: 200px;
+  }
+  .main-content section h1 {
+    font-size: 56px;
+    margin-bottom: 52px;
+  }
+  .main-content section form div {
+    margin-bottom: 36px;
+  }
+  .main-content section form div label {
+    font-size: 26px;
+  }
+  .main-content section form label {
+    font-size: 26px;
+    padding-bottom: 8px;
+  }
+  .main-content section form input {
+    padding: 4px 12px;
+    height: 80px;
+    width: calc(50% - 12px);
+  }
+  .main-content section form input:first-of-type {
+    margin-right: 24px;
+  }
+  .main-content section form textarea {
+    padding: 8px 12px;
+    height: 280px;
+  }
+  .main-content section form input, .main-content section form textarea {
+    border-bottom: 3px solid #3c3c42;
+    font-size: 24px;
+  }
+  .main-content section form input:focus, .main-content section form textarea:focus {
+    outline: none;
+    border-bottom: 3px solid #c00e4d;
+  }
+  .main-content section form button {
+    margin-top: 26px;
+  }
+  .main-content aside h2, .main-content aside a {
+    font-size: 36px;
+    margin-left: 140px;
+  }
+  .main-content aside h2:nth-of-type(2) {
+    margin-bottom: 18px;
+  }
+  .main-content aside a {
+    font-size: 36px;
+  }
+  .main-content aside img {
+    margin: 32px 15% 0 auto;
+    max-width: 50%;
+  }
+}
+
 @media only screen and (max-width: 1280px) {
   .main-content aside h2, .main-content aside a {
     margin-left: 80px;

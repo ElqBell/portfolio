@@ -126,6 +126,83 @@
     }
 }
 
+@media only screen and (min-width: 1921px) {
+    .main-content {
+        section {
+            padding-bottom: 200px;
+
+            h1 {
+                font-size: 56px;
+                margin-bottom: 52px;
+            }
+    
+            form {
+                div {
+                    margin-bottom: 36px;
+    
+                    label {
+                        font-size: 26px;
+                    }
+                }
+    
+                label {
+                    font-size: 26px;
+                    padding-bottom: 8px;
+                }
+    
+                input {
+                    padding: 4px 12px;
+                    height: 80px;
+                    width: calc(50% - 12px);
+    
+                    &:first-of-type {
+                        margin-right: 24px;
+                    }
+                }
+    
+                textarea {
+                    padding: 8px 12px;
+                    height: 280px;
+                }
+    
+                input, textarea {
+                    border-bottom: 3px solid $darker-gray;
+                    font-size: 24px;
+    
+                    &:focus {
+                        outline: none;
+                        border-bottom: 3px solid $pink;
+                    }
+                }
+    
+                button {
+                    margin-top: 26px;
+                }
+            }
+        }
+    
+        aside {
+            h2, a {
+                font-size: 36px;
+                margin-left: 140px;
+            }
+    
+            h2:nth-of-type(2) {
+                margin-bottom: 18px;
+            }
+    
+            a {
+                font-size: 36px;
+            }
+    
+            img {
+                margin: 32px 15% 0 auto;
+                max-width: 50%;
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: 1280px) {
     .main-content aside {
         h2, a {

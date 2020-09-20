@@ -86,6 +86,49 @@
   vertical-align: bottom;
 }
 
+@media only screen and (min-width: 1921px) {
+  .main-content .link-back {
+    margin-top: -80px;
+    font-size: 28px;
+    width: 250px;
+    height: 60px;
+    line-height: 60px;
+  }
+  .main-content section {
+    padding-bottom: 200px;
+  }
+  .main-content section .project-number {
+    margin-right: 8px;
+    font-size: 32px;
+  }
+  .main-content section h1 {
+    font-size: 52px;
+  }
+  .main-content section article {
+    margin-top: 24px;
+  }
+  .main-content section article:first-of-type {
+    margin-top: 52px;
+  }
+  .main-content section article:first-of-type p {
+    font-size: 22px;
+  }
+  .main-content section article h2 {
+    font-size: 30px;
+    margin-bottom: 16px;
+  }
+  .main-content section article ul {
+    font-size: 22px;
+  }
+  .main-content section article ul li {
+    margin-bottom: 8px;
+  }
+  .main-content aside {
+    width: calc(60% - 60px);
+    margin: 93px 0 42px 60px;
+  }
+}
+
 @media only screen and (max-width: 1280px) {
   .main-content aside {
     width: 60%;

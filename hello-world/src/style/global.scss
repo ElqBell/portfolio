@@ -63,64 +63,94 @@ a {
     display: none !important;
 }
 
-.page-content {
-    width: 1200px;
-    margin: 0 auto;
-}
-
 a:focus {
     outline: none;
 }
 
-header {
-    height: 100px;
+.page-content {
+    width: 1200px;
     margin: 0 auto;
 
-    span {
-        font-weight: bold;
-    }
-
-    a.logo {
-        display: inline-block;
-        padding: 0 20px;
-        line-height: 100px;
-        font-size: 24px;
-    }
-
-    nav {
-        position: relative;
-        float: right;
-
-        ul {
-            margin: 0;
-            padding: 0 0 24px 0;
-
-            li {
-                display: inline-block;
-                padding: 0 10px;
-                line-height: 100px;
+    header {
+        height: 100px;
+        margin: 0 auto;
+    
+        span {
+            font-weight: bold;
+        }
+    
+        a.logo {
+            display: inline-block;
+            padding: 0 20px;
+            line-height: 100px;
+            font-size: 24px;
+        }
+    
+        nav {
+            position: relative;
+            float: right;
+    
+            ul {
+                margin: 0;
+                padding: 0 0 24px 0;
+    
+                li {
+                    display: inline-block;
+                    padding: 0 10px;
+                    line-height: 100px;
+                }
+            }
+        }
+    
+        .nav-menu {
+            position: absolute;
+            right: 0;
+            margin: 40px 32px 0 0;
+            cursor: pointer;
+            font-weight: bold;
+    
+            div {
+                width: 22px;
+                height: 3px;
+                background-color: $pink;
+                margin: 3px 0;
+                user-select: none;
+            }
+    
+            &:focus {
+                outline: none;
             }
         }
     }
+}
 
-    .nav-menu {
-        position: absolute;
-        right: 0;
-        margin: 40px 32px 0 0;
-        cursor: pointer;
-        font-weight: bold;
+@media only screen and (min-width: 1921px) {
+    .page-content {
+        width: 70vw;
 
-        div {
-            width: 22px;
-            height: 3px;
-            background-color: $pink;
-            margin: 3px 0;
-            user-select: none;
+        header {
+            height: 200px;
+        
+            a.logo {
+                line-height: 200px;
+                font-size: 52px;
+            }
+        
+            nav ul li {
+                line-height: 200px;
+
+                a {
+                    font-size: 26px;
+                }
+            }
         }
-
-        &:focus {
-            outline: none;
-        }
+    }
+    
+    .button {
+        width: 300px;
+        height: 90px;
+        line-height: 90px;
+        font-size: 26px;
     }
 }
 

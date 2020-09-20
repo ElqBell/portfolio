@@ -87,6 +87,79 @@
     }
 }
 
+@media only screen and (min-width: 1921px) {
+    .main-content {
+        width: 85vw;
+
+        section {
+            width: 30%;
+            padding-bottom: 200px;
+            margin-top: 28px;
+    
+            h1 {
+                font-size: 56px;
+            }
+
+            article {
+                margin-top: 32px;
+    
+                h2 {
+                    width: 100%;
+                    font-size: 36px;
+                    margin-bottom: 32px;
+                }
+    
+                div.git-link {
+                    height: 80px;
+    
+                    img {
+                        width: 80px;
+                        margin-right: 24px;
+                    }
+    
+                    a {
+                        line-height: 80px;
+                        font-size: 36px;
+                    }
+                }
+    
+                .svg-div {
+                    width: 500px;
+                    height: 380px;
+                    margin-top: 32px;
+    
+                    img {
+                        width: 500px;
+                        margin-top: 14px;
+                    }
+                }
+            }
+        }
+    
+        aside {
+            width: calc(70% - 60px);
+            margin-left: 60px;
+    
+            div {
+                a {
+                    width: 500px;
+                    height: 325px;
+                    margin: 28px 32px 0 0;
+    
+                    p {
+                        line-height: 70px;
+                        font-size: 24px;
+                    }
+    
+                    img {
+                        height: 325px;
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: 1280px) {
     .main-content {
         section {
