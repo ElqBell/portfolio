@@ -38,19 +38,19 @@ export default function Projects() {
       </section>
       <aside>
         <div>
-          <Link to="1">
+          <Link to="photography-portfolio">
             <p>Learn more</p>
             <img className="lazyload" src={ProjectIMG1lowq} data-src={ProjectIMG1} alt="First project page overview"/>
           </Link>
-          <Link to="2">
+          <Link to="movie-search-system">
             <p>Learn more</p>
             <img className="lazyload" src={ProjectIMG2lowq} data-src={ProjectIMG2} alt="Second project page overview"/>
           </Link>
-          <Link to="3" >
+          <Link to="zyzz-bodybuilding" >
             <p>Learn more</p>
             <img className="lazyload" src={ProjectIMG3lowq} data-src={ProjectIMG3} alt="Third project page overview"/>
           </Link>
-          <Link to="4" >
+          <Link to="japanese-musicians" >
             <p>Learn more</p>
             <img className="lazyload" src={ProjectIMG4lowq} data-src={ProjectIMG4} alt="Fourth project page overview"/>
           </Link> 
