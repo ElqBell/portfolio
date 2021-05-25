@@ -56,7 +56,7 @@ export default function Contact() {
   return (
     <Layout mainClass={localStyles.mainContent}>
        <Helmet>
-        <title>{`DMD - Contact`}</title>
+        <title>{`Deimantas Butėnas - Contact`}</title>
       </Helmet>
       <section>
         <h1 className="heading-1">Send me a message.</h1>

@@ -8,7 +8,7 @@ export default function About() {
   return (
     <Layout mainClass={localStyles.mainContent}>
       <Helmet>
-        <title>{`DMD - About`}</title>
+        <title>{`Deimantas Butėnas - About`}</title>
       </Helmet>
       <section>
         <h1 className="heading-1">Hello, my name is Deimantas Butėnas.</h1>

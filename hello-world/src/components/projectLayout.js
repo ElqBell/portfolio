@@ -6,7 +6,7 @@ export default function ProjectLayout(props) {
   return (
     <Layout mainClass={props.mainClass}>
       <Helmet>
-        <title>{`DMD - Project ${props.projectNum}`}</title>
+        <title>{`Deimantas Butėnas - Project ${props.projectNum}`}</title>
       </Helmet>
       {props.children}
     </Layout>

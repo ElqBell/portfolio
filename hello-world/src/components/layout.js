@@ -18,7 +18,7 @@ export default function Layout(props) {
   return (
     <div className="page-content">
         <Helmet>
-          <title>{`DMD - Home`}</title>
+          <title>{`Deimantas Butėnas - Home`}</title>
         </Helmet>
         <Header/>
         <main className={props.mainClass}>{props.children}</main>

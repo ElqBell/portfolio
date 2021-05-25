@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "gatsby";
 import Layout from "../../components/layout";
-import { GitHub, ComingSoon, SVGBoy, SVGBoyFallback, ProjectIMG1,
+import { GitHub, SVGBoy, SVGBoyFallback, ProjectIMG1,
          ProjectIMG2, ProjectIMG3, ProjectIMG4, ProjectIMG1lowq,
          ProjectIMG2lowq, ProjectIMG3lowq, ProjectIMG4lowq
        } from "../../images";
@@ -21,7 +21,7 @@ export default function Projects() {
   return (
     <Layout mainClass={localStyles.mainContent}>
       <Helmet>
-        <title>{`DMD - Projects`}</title>
+        <title>{`Deimantas Butėnas - Projects`}</title>
       </Helmet>
       <section>
         <h1 className="heading-1">Get to know me through my work.</h1>
